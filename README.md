@@ -1,6 +1,6 @@
 ## The Algo Hot Potato Contract
 
-The AlgoPotato contract is a decentralized game using a verifiable random function where two players participate in a game of "Hot Potato" with an equivalent amount of Algorand Standard Assets or Algo— where the winner receives the full amount and the loser receives nothing.
+The AlgoPotato contract is a decentralized game using a verifiable random function where two players participate in a game of "Hot Potato" with an equivalent amount of an Algorand Standard Asset or Algo— where the winner receives the full amount and the loser receives nothing.
 
 The contract manages game creation, player deposits, VRF-based randomness, and simulates "Hot Potato" back-and-forth transfers before determining a winner.
 
