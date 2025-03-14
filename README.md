@@ -24,6 +24,8 @@ The contract manages game creation, player deposits, VRF-based randomness, and s
 - The number 240 was selected as the max amount of inner transactions is 256, and we require at least 14 opup budget calls, 1 VRF call,
 and a payment/axfer for dispensing the reward to the winner
 
+## Transaction Example Reference
+
 A visual of the full transaction with inner transactions can be seen at the top of this read me in a snippet, or directly on Algokit Lora via the link:
 https://lora.algokit.io/testnet/transaction/PJ2TZBXTF5ULU4GASYC3GFZ4RSWA5ILKZNNWG7AJ4YMRLFJEZIAQ
 
