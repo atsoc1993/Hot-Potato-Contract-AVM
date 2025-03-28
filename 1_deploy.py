@@ -15,6 +15,7 @@ app_address = algo_potato_client.app_address
 print(f'App created: {app_id}')
 
 set_key('.env', key_to_set='app_id', value_to_set=str(app_id))
+set_key('./PotatoFrontEnd/.env', key_to_set='VITE_APP_ID', value_to_set=str(app_id))
 
 algorand.send.payment(
     PaymentParams(

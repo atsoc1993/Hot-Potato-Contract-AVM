@@ -21,7 +21,8 @@ algo_potato_approval_map = SourceMap(json.loads((Path(__file__).parent / 'AlgoPo
 
 algorand = AlgorandClient.testnet()
 
-test_asset = int(os.getenv('asset_id'))
+if os.getenv('asset_id'):
+    test_asset = int(os.getenv('asset_id'))
 
 def get_algo_potato_factory(address, signer):
 
@@ -38,7 +39,8 @@ def get_algo_potato_factory(address, signer):
 
     return algo_potato_factory
 
-app_id = int(os.getenv('app_id'))
+if os.getenv('app_id'):
+    app_id = int(os.getenv('app_id'))
 
 def get_potato_client(address, signer):
 

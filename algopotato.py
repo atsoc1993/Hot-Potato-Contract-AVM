@@ -2,6 +2,14 @@ from algopy import ARC4Contract, BoxMap, UInt64, arc4, gtxn, TransactionType, Gl
 from algopy.arc4 import abimethod, Struct, Address, abi_call, UInt256
 
 
+'''
+Terminal Commands: 
+
+Compile Algopy Contract: algokit compile py test_contract.py --output-arc56
+Generate Typescript Client: npx --yes  @algorandfoundation/algokit-client-generator generate -a ./AlgoPotato.arc56.json -o ./AlgoPotatoClient.ts
+
+'''
+
 '''The box name structure for a game'''
 class GameBoxName(Struct):
     player_1: Address
@@ -120,6 +128,8 @@ class AlgoPotato(ARC4Contract):
         '''
         Constructs a GameBoxName instance when creating a game using the sender's address and the current global counter
         '''
+
+        self.counter += 1
         user_addr = Address(Txn.sender)
         counter = arc4.UInt64(self.counter)
 

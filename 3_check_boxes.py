@@ -16,9 +16,9 @@ for box in boxes:
 
     #print(f'Box Name Decoded: {box_name_decoded}')
     #print(f'Box Value Decoded: {box_value_decoded}')
-
+    print(player_2)
     print(f'Player 1: {player_1}\nPlayer 2: {player_2 if encode_address(bytes(32)) != player_2 else None}\nPlayer 1 Round: {player_1_round}\nPlayer 2 Round: {player_2_round if player_2_round != 0 else None}\nVRF Round: {None if vrf_round == 0 else vrf_round}\nAsset: {'Algorand' if asset == 0 else asset}\nAmount: {asset_amount:,.0f}')
-
+    print('\n')
 
 '''
 

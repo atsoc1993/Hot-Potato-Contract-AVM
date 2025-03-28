@@ -3,7 +3,7 @@
   "sources": [
     "algopotato.py"
   ],
-  "mappings": "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",
+  "mappings": "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",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -14,7 +14,7 @@
       "op": "intcblock 0 1 4 2 600011887"
     },
     "12": {
-      "op": "bytecblock \"games_played\" 0x0000000000000000 \"\" \"counter\" 0x151f7c75 0x068101"
+      "op": "bytecblock \"games_played\" \"counter\" 0x0000000000000000 \"\" 0x151f7c75 0x068101"
     },
     "54": {
       "op": "txn ApplicationID",
@@ -54,7 +54,7 @@
       "stack_out": []
     },
     "62": {
-      "op": "bytec_3 // \"counter\"",
+      "op": "bytec_1 // \"counter\"",
       "defined_out": [
         "\"counter\""
       ],
@@ -1573,6 +1573,133 @@
       ]
     },
     "388": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "amount_deposited#0"
+      ],
+      "stack_out": [
+        "asset_id#1",
+        "amount_deposited#0",
+        "awst_tmp%0#0",
+        "tmp%0#1",
+        "amount_deposited#0",
+        "0"
+      ]
+    },
+    "389": {
+      "op": "bytec_1 // \"counter\"",
+      "defined_out": [
+        "\"counter\"",
+        "0",
+        "amount_deposited#0"
+      ],
+      "stack_out": [
+        "asset_id#1",
+        "amount_deposited#0",
+        "awst_tmp%0#0",
+        "tmp%0#1",
+        "amount_deposited#0",
+        "0",
+        "\"counter\""
+      ]
+    },
+    "390": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "amount_deposited#0",
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "asset_id#1",
+        "amount_deposited#0",
+        "awst_tmp%0#0",
+        "tmp%0#1",
+        "amount_deposited#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "391": {
+      "error": "check self.counter exists",
+      "op": "assert // check self.counter exists",
+      "stack_out": [
+        "asset_id#1",
+        "amount_deposited#0",
+        "awst_tmp%0#0",
+        "tmp%0#1",
+        "amount_deposited#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "392": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "amount_deposited#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "asset_id#1",
+        "amount_deposited#0",
+        "awst_tmp%0#0",
+        "tmp%0#1",
+        "amount_deposited#0",
+        "maybe_value%0#0",
+        "1"
+      ]
+    },
+    "393": {
+      "op": "+",
+      "defined_out": [
+        "amount_deposited#0",
+        "new_state_value%0#0"
+      ],
+      "stack_out": [
+        "asset_id#1",
+        "amount_deposited#0",
+        "awst_tmp%0#0",
+        "tmp%0#1",
+        "amount_deposited#0",
+        "new_state_value%0#0"
+      ]
+    },
+    "394": {
+      "op": "bytec_1 // \"counter\"",
+      "stack_out": [
+        "asset_id#1",
+        "amount_deposited#0",
+        "awst_tmp%0#0",
+        "tmp%0#1",
+        "amount_deposited#0",
+        "new_state_value%0#0",
+        "\"counter\""
+      ]
+    },
+    "395": {
+      "op": "swap",
+      "stack_out": [
+        "asset_id#1",
+        "amount_deposited#0",
+        "awst_tmp%0#0",
+        "tmp%0#1",
+        "amount_deposited#0",
+        "\"counter\"",
+        "new_state_value%0#0"
+      ]
+    },
+    "396": {
+      "op": "app_global_put",
+      "stack_out": [
+        "asset_id#1",
+        "amount_deposited#0",
+        "awst_tmp%0#0",
+        "tmp%0#1",
+        "amount_deposited#0"
+      ]
+    },
+    "397": {
       "op": "txn Sender",
       "defined_out": [
         "amount_deposited#0",
@@ -1587,13 +1714,8 @@
         "user_addr#0"
       ]
     },
-    "390": {
+    "399": {
       "op": "intc_0 // 0",
-      "defined_out": [
-        "0",
-        "amount_deposited#0",
-        "user_addr#0"
-      ],
       "stack_out": [
         "asset_id#1",
         "amount_deposited#0",
@@ -1604,14 +1726,8 @@
         "0"
       ]
     },
-    "391": {
-      "op": "bytec_3 // \"counter\"",
-      "defined_out": [
-        "\"counter\"",
-        "0",
-        "amount_deposited#0",
-        "user_addr#0"
-      ],
+    "400": {
+      "op": "bytec_1 // \"counter\"",
       "stack_out": [
         "asset_id#1",
         "amount_deposited#0",
@@ -1623,12 +1739,12 @@
         "\"counter\""
       ]
     },
-    "392": {
+    "401": {
       "op": "app_global_get_ex",
       "defined_out": [
         "amount_deposited#0",
-        "maybe_exists%0#0",
-        "maybe_value%0#0",
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
         "user_addr#0"
       ],
       "stack_out": [
@@ -1638,11 +1754,11 @@
         "tmp%0#1",
         "amount_deposited#0",
         "user_addr#0",
-        "maybe_value%0#0",
-        "maybe_exists%0#0"
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
       ]
     },
-    "393": {
+    "402": {
       "error": "check self.counter exists",
       "op": "assert // check self.counter exists",
       "stack_out": [
@@ -1652,10 +1768,10 @@
         "tmp%0#1",
         "amount_deposited#0",
         "user_addr#0",
-        "maybe_value%0#0"
+        "maybe_value%1#0"
       ]
     },
-    "394": {
+    "403": {
       "op": "itob",
       "defined_out": [
         "amount_deposited#0",
@@ -1672,7 +1788,7 @@
         "counter#0"
       ]
     },
-    "395": {
+    "404": {
       "op": "concat",
       "defined_out": [
         "amount_deposited#0",
@@ -1687,7 +1803,7 @@
         "game_box_name#0"
       ]
     },
-    "396": {
+    "405": {
       "op": "txn Sender",
       "stack_out": [
         "asset_id#1",
@@ -1699,7 +1815,7 @@
         "user_addr#0"
       ]
     },
-    "398": {
+    "407": {
       "op": "global ZeroAddress",
       "defined_out": [
         "amount_deposited#0",
@@ -1718,7 +1834,7 @@
         "tmp%0#2"
       ]
     },
-    "400": {
+    "409": {
       "op": "global Round",
       "defined_out": [
         "amount_deposited#0",
@@ -1739,7 +1855,7 @@
         "to_encode%0#0"
       ]
     },
-    "402": {
+    "411": {
       "op": "itob",
       "defined_out": [
         "amount_deposited#0",
@@ -1760,7 +1876,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "403": {
+    "412": {
       "op": "frame_dig 0",
       "defined_out": [
         "amount_deposited#0",
@@ -1783,7 +1899,7 @@
         "asset_id#1"
       ]
     },
-    "405": {
+    "414": {
       "op": "itob",
       "defined_out": [
         "amount_deposited#0",
@@ -1807,7 +1923,7 @@
         "val_as_bytes%1#0"
       ]
     },
-    "406": {
+    "415": {
       "op": "uncover 5",
       "stack_out": [
         "asset_id#1",
@@ -1822,7 +1938,7 @@
         "amount_deposited#0"
       ]
     },
-    "408": {
+    "417": {
       "op": "itob",
       "defined_out": [
         "amount_deposited#0",
@@ -1847,7 +1963,7 @@
         "val_as_bytes%2#0"
       ]
     },
-    "409": {
+    "418": {
       "op": "uncover 4",
       "stack_out": [
         "asset_id#1",
@@ -1862,7 +1978,7 @@
         "user_addr#0"
       ]
     },
-    "411": {
+    "420": {
       "op": "uncover 4",
       "stack_out": [
         "asset_id#1",
@@ -1877,7 +1993,7 @@
         "tmp%0#2"
       ]
     },
-    "413": {
+    "422": {
       "op": "concat",
       "defined_out": [
         "amount_deposited#0",
@@ -1900,7 +2016,7 @@
         "encoded_tuple_buffer%2#1"
       ]
     },
-    "414": {
+    "423": {
       "op": "uncover 3",
       "stack_out": [
         "asset_id#1",
@@ -1914,7 +2030,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "416": {
+    "425": {
       "op": "concat",
       "defined_out": [
         "amount_deposited#0",
@@ -1935,8 +2051,8 @@
         "encoded_tuple_buffer%3#0"
       ]
     },
-    "417": {
-      "op": "bytec_1 // 0x0000000000000000",
+    "426": {
+      "op": "bytec_2 // 0x0000000000000000",
       "defined_out": [
         "0x0000000000000000",
         "amount_deposited#0",
@@ -1958,7 +2074,7 @@
         "0x0000000000000000"
       ]
     },
-    "418": {
+    "427": {
       "op": "concat",
       "defined_out": [
         "amount_deposited#0",
@@ -1979,8 +2095,8 @@
         "encoded_tuple_buffer%4#0"
       ]
     },
-    "419": {
-      "op": "bytec_1 // 0x0000000000000000",
+    "428": {
+      "op": "bytec_2 // 0x0000000000000000",
       "stack_out": [
         "asset_id#1",
         "amount_deposited#0",
@@ -1993,7 +2109,7 @@
         "0x0000000000000000"
       ]
     },
-    "420": {
+    "429": {
       "op": "concat",
       "defined_out": [
         "amount_deposited#0",
@@ -2014,7 +2130,7 @@
         "encoded_tuple_buffer%5#0"
       ]
     },
-    "421": {
+    "430": {
       "op": "uncover 2",
       "stack_out": [
         "asset_id#1",
@@ -2027,7 +2143,7 @@
         "val_as_bytes%1#0"
       ]
     },
-    "423": {
+    "432": {
       "op": "concat",
       "defined_out": [
         "amount_deposited#0",
@@ -2046,7 +2162,7 @@
         "encoded_tuple_buffer%6#0"
       ]
     },
-    "424": {
+    "433": {
       "op": "swap",
       "stack_out": [
         "asset_id#1",
@@ -2058,7 +2174,7 @@
         "val_as_bytes%2#0"
       ]
     },
-    "425": {
+    "434": {
       "op": "concat",
       "defined_out": [
         "amount_deposited#0",
@@ -2075,7 +2191,7 @@
         "game_box_value#0"
       ]
     },
-    "426": {
+    "435": {
       "op": "box_put",
       "stack_out": [
         "asset_id#1",
@@ -2084,11 +2200,11 @@
         "tmp%0#1"
       ]
     },
-    "427": {
+    "436": {
       "retsub": true,
       "op": "retsub"
     },
-    "428": {
+    "437": {
       "block": "create_game_else_body@7",
       "stack_in": [
         "asset_id#1",
@@ -2108,7 +2224,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "430": {
+    "439": {
       "op": "intc_2 // axfer",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2123,7 +2239,7 @@
         "axfer"
       ]
     },
-    "431": {
+    "440": {
       "op": "==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2137,7 +2253,7 @@
         "tmp%5#0"
       ]
     },
-    "432": {
+    "441": {
       "op": "bz create_game_after_if_else@10",
       "stack_out": [
         "asset_id#1",
@@ -2146,7 +2262,7 @@
         "tmp%0#1"
       ]
     },
-    "435": {
+    "444": {
       "op": "frame_dig -2",
       "defined_out": [
         "asset_deposit#0 (copy)",
@@ -2160,7 +2276,7 @@
         "asset_deposit#0 (copy)"
       ]
     },
-    "437": {
+    "446": {
       "op": "gtxns XferAsset",
       "defined_out": [
         "asset_id#1",
@@ -2174,7 +2290,7 @@
         "asset_id#1"
       ]
     },
-    "439": {
+    "448": {
       "op": "frame_bury 0",
       "defined_out": [
         "asset_id#1",
@@ -2187,7 +2303,7 @@
         "tmp%0#1"
       ]
     },
-    "441": {
+    "450": {
       "op": "frame_dig -2",
       "stack_out": [
         "asset_id#1",
@@ -2197,7 +2313,7 @@
         "asset_deposit#0 (copy)"
       ]
     },
-    "443": {
+    "452": {
       "op": "gtxns AssetAmount",
       "defined_out": [
         "amount_deposited#0",
@@ -2212,7 +2328,7 @@
         "amount_deposited#0"
       ]
     },
-    "445": {
+    "454": {
       "op": "frame_bury 1",
       "defined_out": [
         "amount_deposited#0",
@@ -2226,10 +2342,10 @@
         "tmp%0#1"
       ]
     },
-    "447": {
+    "456": {
       "op": "b create_game_after_if_else@10"
     },
-    "450": {
+    "459": {
       "block": "create_game_bool_false@4",
       "stack_in": [
         "asset_id#1",
@@ -2249,10 +2365,10 @@
         "or_result%0#0"
       ]
     },
-    "451": {
+    "460": {
       "op": "b create_game_bool_merge@5"
     },
-    "454": {
+    "463": {
       "subroutine": "algopotato.AlgoPotato.prime_game_vrf",
       "params": {
         "game_box_name#0": "bytes",
@@ -2262,7 +2378,7 @@
       "stack_in": [],
       "op": "proto 2 0"
     },
-    "457": {
+    "466": {
       "op": "frame_dig -1",
       "defined_out": [
         "asset_deposit#0 (copy)"
@@ -2271,12 +2387,12 @@
         "asset_deposit#0 (copy)"
       ]
     },
-    "459": {
+    "468": {
       "callsub": "algopotato.AlgoPotato.contract_is_receiver",
       "op": "callsub contract_is_receiver",
       "stack_out": []
     },
-    "462": {
+    "471": {
       "op": "frame_dig -2",
       "defined_out": [
         "game_box_name#0 (copy)"
@@ -2285,7 +2401,7 @@
         "game_box_name#0 (copy)"
       ]
     },
-    "464": {
+    "473": {
       "op": "box_get",
       "defined_out": [
         "game_box#0",
@@ -2296,21 +2412,21 @@
         "maybe_exists%0#0"
       ]
     },
-    "465": {
+    "474": {
       "error": "check self.game_box entry exists",
       "op": "assert // check self.game_box entry exists",
       "stack_out": [
         "game_box#0"
       ]
     },
-    "466": {
+    "475": {
       "op": "frame_dig -1",
       "stack_out": [
         "game_box#0",
         "asset_deposit#0 (copy)"
       ]
     },
-    "468": {
+    "477": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2321,7 +2437,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "470": {
+    "479": {
       "op": "dup",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2333,7 +2449,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "471": {
+    "480": {
       "op": "intc_2 // axfer",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2347,7 +2463,7 @@
         "axfer"
       ]
     },
-    "472": {
+    "481": {
       "op": "==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2360,14 +2476,14 @@
         "tmp%0#1"
       ]
     },
-    "473": {
+    "482": {
       "op": "bnz prime_game_vrf_bool_true@3",
       "stack_out": [
         "game_box#0",
         "awst_tmp%0#0"
       ]
     },
-    "476": {
+    "485": {
       "op": "frame_dig 1",
       "stack_out": [
         "game_box#0",
@@ -2375,7 +2491,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "478": {
+    "487": {
       "op": "intc_1 // pay",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2389,7 +2505,7 @@
         "pay"
       ]
     },
-    "479": {
+    "488": {
       "op": "==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2402,14 +2518,14 @@
         "tmp%1#1"
       ]
     },
-    "480": {
+    "489": {
       "op": "bz prime_game_vrf_bool_false@4",
       "stack_out": [
         "game_box#0",
         "awst_tmp%0#0"
       ]
     },
-    "483": {
+    "492": {
       "block": "prime_game_vrf_bool_true@3",
       "stack_in": [
         "game_box#0",
@@ -2425,7 +2541,7 @@
         "or_result%0#0"
       ]
     },
-    "484": {
+    "493": {
       "block": "prime_game_vrf_bool_merge@5",
       "stack_in": [
         "game_box#0",
@@ -2439,7 +2555,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "485": {
+    "494": {
       "op": "frame_dig 1",
       "defined_out": [
         "awst_tmp%0#0"
@@ -2450,7 +2566,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "487": {
+    "496": {
       "op": "intc_1 // pay",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2463,7 +2579,7 @@
         "pay"
       ]
     },
-    "488": {
+    "497": {
       "op": "==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2475,14 +2591,14 @@
         "tmp%3#0"
       ]
     },
-    "489": {
+    "498": {
       "op": "bz prime_game_vrf_else_body@7",
       "stack_out": [
         "game_box#0",
         "awst_tmp%0#0"
       ]
     },
-    "492": {
+    "501": {
       "op": "frame_dig 0",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2494,7 +2610,7 @@
         "game_box#0"
       ]
     },
-    "494": {
+    "503": {
       "op": "dup",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2508,7 +2624,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "495": {
+    "504": {
       "error": "Index access is out of bounds",
       "op": "extract 88 8 // on error: Index access is out of bounds",
       "defined_out": [
@@ -2523,8 +2639,8 @@
         "reinterpret_biguint%0#0"
       ]
     },
-    "498": {
-      "op": "bytec_1 // 0x0000000000000000",
+    "507": {
+      "op": "bytec_2 // 0x0000000000000000",
       "defined_out": [
         "0x0000000000000000",
         "awst_tmp%0#0",
@@ -2539,7 +2655,7 @@
         "0x0000000000000000"
       ]
     },
-    "499": {
+    "508": {
       "op": "b==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2553,7 +2669,7 @@
         "tmp%4#0"
       ]
     },
-    "500": {
+    "509": {
       "op": "assert",
       "stack_out": [
         "game_box#0",
@@ -2561,7 +2677,7 @@
         "game_box#0"
       ]
     },
-    "501": {
+    "510": {
       "error": "Index access is out of bounds",
       "op": "extract 96 8 // on error: Index access is out of bounds",
       "defined_out": [
@@ -2575,7 +2691,7 @@
         "reinterpret_biguint%2#0"
       ]
     },
-    "504": {
+    "513": {
       "op": "frame_dig -1",
       "defined_out": [
         "asset_deposit#0 (copy)",
@@ -2590,7 +2706,7 @@
         "asset_deposit#0 (copy)"
       ]
     },
-    "506": {
+    "515": {
       "op": "gtxns Amount",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2605,7 +2721,7 @@
         "tmp%5#0"
       ]
     },
-    "508": {
+    "517": {
       "op": "itob",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2620,7 +2736,7 @@
         "tmp%6#0"
       ]
     },
-    "509": {
+    "518": {
       "op": "b==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2633,14 +2749,14 @@
         "tmp%7#0"
       ]
     },
-    "510": {
+    "519": {
       "op": "assert",
       "stack_out": [
         "game_box#0",
         "awst_tmp%0#0"
       ]
     },
-    "511": {
+    "520": {
       "block": "prime_game_vrf_after_if_else@8",
       "stack_in": [
         "game_box#0",
@@ -2656,7 +2772,7 @@
         "game_box#0"
       ]
     },
-    "513": {
+    "522": {
       "op": "dup",
       "defined_out": [
         "game_box#0",
@@ -2669,7 +2785,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "514": {
+    "523": {
       "error": "Index access is out of bounds",
       "op": "extract 32 32 // on error: Index access is out of bounds",
       "defined_out": [
@@ -2683,7 +2799,7 @@
         "tmp%0#2"
       ]
     },
-    "517": {
+    "526": {
       "op": "global ZeroAddress",
       "defined_out": [
         "game_box#0",
@@ -2698,7 +2814,7 @@
         "tmp%1#2"
       ]
     },
-    "519": {
+    "528": {
       "op": "==",
       "defined_out": [
         "game_box#0",
@@ -2711,7 +2827,7 @@
         "tmp%2#0"
       ]
     },
-    "520": {
+    "529": {
       "op": "assert",
       "stack_out": [
         "game_box#0",
@@ -2719,7 +2835,7 @@
         "game_box#0"
       ]
     },
-    "521": {
+    "530": {
       "op": "txn Sender",
       "defined_out": [
         "assigned_value%0#0",
@@ -2732,7 +2848,7 @@
         "assigned_value%0#0"
       ]
     },
-    "523": {
+    "532": {
       "op": "replace2 32",
       "stack_out": [
         "game_box#0",
@@ -2740,7 +2856,7 @@
         "game_box#0"
       ]
     },
-    "525": {
+    "534": {
       "op": "global Round",
       "defined_out": [
         "game_box#0",
@@ -2753,7 +2869,7 @@
         "to_encode%0#0"
       ]
     },
-    "527": {
+    "536": {
       "op": "itob",
       "defined_out": [
         "game_box#0",
@@ -2766,7 +2882,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "528": {
+    "537": {
       "op": "replace2 72",
       "stack_out": [
         "game_box#0",
@@ -2774,7 +2890,7 @@
         "game_box#0"
       ]
     },
-    "530": {
+    "539": {
       "op": "global Round",
       "defined_out": [
         "game_box#0",
@@ -2787,7 +2903,7 @@
         "tmp%3#1"
       ]
     },
-    "532": {
+    "541": {
       "op": "pushint 9 // 9",
       "defined_out": [
         "9",
@@ -2802,7 +2918,7 @@
         "9"
       ]
     },
-    "534": {
+    "543": {
       "op": "+",
       "defined_out": [
         "game_box#0",
@@ -2815,7 +2931,7 @@
         "to_encode%1#0"
       ]
     },
-    "535": {
+    "544": {
       "op": "itob",
       "defined_out": [
         "game_box#0",
@@ -2828,7 +2944,7 @@
         "val_as_bytes%1#0"
       ]
     },
-    "536": {
+    "545": {
       "op": "replace2 80",
       "stack_out": [
         "game_box#0",
@@ -2836,7 +2952,7 @@
         "game_box#0"
       ]
     },
-    "538": {
+    "547": {
       "op": "frame_dig -2",
       "defined_out": [
         "game_box#0",
@@ -2849,7 +2965,7 @@
         "game_box_name#0 (copy)"
       ]
     },
-    "540": {
+    "549": {
       "op": "swap",
       "stack_out": [
         "game_box#0",
@@ -2858,18 +2974,18 @@
         "game_box#0"
       ]
     },
-    "541": {
+    "550": {
       "op": "box_put",
       "stack_out": [
         "game_box#0",
         "awst_tmp%0#0"
       ]
     },
-    "542": {
+    "551": {
       "retsub": true,
       "op": "retsub"
     },
-    "543": {
+    "552": {
       "block": "prime_game_vrf_else_body@7",
       "stack_in": [
         "game_box#0",
@@ -2885,7 +3001,7 @@
         "game_box#0"
       ]
     },
-    "545": {
+    "554": {
       "op": "dup",
       "defined_out": [
         "game_box#0",
@@ -2898,7 +3014,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "546": {
+    "555": {
       "error": "Index access is out of bounds",
       "op": "extract 88 8 // on error: Index access is out of bounds",
       "defined_out": [
@@ -2912,7 +3028,7 @@
         "reinterpret_biguint%3#0"
       ]
     },
-    "549": {
+    "558": {
       "op": "frame_dig -1",
       "defined_out": [
         "asset_deposit#0 (copy)",
@@ -2927,7 +3043,7 @@
         "asset_deposit#0 (copy)"
       ]
     },
-    "551": {
+    "560": {
       "op": "gtxns XferAsset",
       "defined_out": [
         "game_box#0",
@@ -2942,7 +3058,7 @@
         "tmp%8#0"
       ]
     },
-    "553": {
+    "562": {
       "op": "itob",
       "defined_out": [
         "game_box#0",
@@ -2957,7 +3073,7 @@
         "tmp%9#0"
       ]
     },
-    "554": {
+    "563": {
       "op": "b==",
       "defined_out": [
         "game_box#0",
@@ -2970,7 +3086,7 @@
         "tmp%10#0"
       ]
     },
-    "555": {
+    "564": {
       "op": "assert",
       "stack_out": [
         "game_box#0",
@@ -2978,7 +3094,7 @@
         "game_box#0"
       ]
     },
-    "556": {
+    "565": {
       "error": "Index access is out of bounds",
       "op": "extract 96 8 // on error: Index access is out of bounds",
       "defined_out": [
@@ -2991,7 +3107,7 @@
         "reinterpret_biguint%4#0"
       ]
     },
-    "559": {
+    "568": {
       "op": "frame_dig -1",
       "stack_out": [
         "game_box#0",
@@ -3000,7 +3116,7 @@
         "asset_deposit#0 (copy)"
       ]
     },
-    "561": {
+    "570": {
       "op": "gtxns AssetAmount",
       "defined_out": [
         "game_box#0",
@@ -3014,7 +3130,7 @@
         "tmp%11#0"
       ]
     },
-    "563": {
+    "572": {
       "op": "itob",
       "defined_out": [
         "game_box#0",
@@ -3028,7 +3144,7 @@
         "tmp%12#0"
       ]
     },
-    "564": {
+    "573": {
       "op": "b==",
       "defined_out": [
         "game_box#0",
@@ -3040,17 +3156,17 @@
         "tmp%13#0"
       ]
     },
-    "565": {
+    "574": {
       "op": "assert",
       "stack_out": [
         "game_box#0",
         "awst_tmp%0#0"
       ]
     },
-    "566": {
+    "575": {
       "op": "b prime_game_vrf_after_if_else@8"
     },
-    "569": {
+    "578": {
       "block": "prime_game_vrf_bool_false@4",
       "stack_in": [
         "game_box#0",
@@ -3066,10 +3182,10 @@
         "or_result%0#0"
       ]
     },
-    "570": {
+    "579": {
       "op": "b prime_game_vrf_bool_merge@5"
     },
-    "573": {
+    "582": {
       "subroutine": "algopotato.AlgoPotato.play_game",
       "params": {
         "game_box_name#0": "bytes"
@@ -3078,13 +3194,13 @@
       "stack_in": [],
       "op": "proto 1 1"
     },
-    "576": {
+    "585": {
       "op": "intc_0 // 0",
       "stack_out": [
         "game_box#0"
       ]
     },
-    "577": {
+    "586": {
       "op": "dupn 6",
       "stack_out": [
         "game_box#0",
@@ -3096,8 +3212,8 @@
         "vrf_round#0"
       ]
     },
-    "579": {
-      "op": "bytec_2 // \"\"",
+    "588": {
+      "op": "bytec_3 // \"\"",
       "stack_out": [
         "game_box#0",
         "player_1#2",
@@ -3109,7 +3225,7 @@
         "asset#0"
       ]
     },
-    "580": {
+    "589": {
       "op": "dupn 7",
       "stack_out": [
         "game_box#0",
@@ -3129,7 +3245,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "582": {
+    "591": {
       "block": "play_game_while_top@25",
       "stack_in": [
         "game_box#0",
@@ -3171,7 +3287,7 @@
         "10010"
       ]
     },
-    "585": {
+    "594": {
       "op": "global OpcodeBudget",
       "defined_out": [
         "10010",
@@ -3197,7 +3313,7 @@
         "tmp%0#2"
       ]
     },
-    "587": {
+    "596": {
       "op": ">",
       "defined_out": [
         "tmp%1#2"
@@ -3221,7 +3337,7 @@
         "tmp%1#2"
       ]
     },
-    "588": {
+    "597": {
       "op": "bz play_game_after_while@30",
       "stack_out": [
         "game_box#0",
@@ -3241,10 +3357,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "591": {
+    "600": {
       "op": "itxn_begin"
     },
-    "592": {
+    "601": {
       "op": "pushint 6 // appl",
       "defined_out": [
         "appl"
@@ -3268,7 +3384,7 @@
         "appl"
       ]
     },
-    "594": {
+    "603": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "game_box#0",
@@ -3288,7 +3404,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "596": {
+    "605": {
       "op": "pushint 5 // DeleteApplication",
       "defined_out": [
         "DeleteApplication"
@@ -3312,7 +3428,7 @@
         "DeleteApplication"
       ]
     },
-    "598": {
+    "607": {
       "op": "itxn_field OnCompletion",
       "stack_out": [
         "game_box#0",
@@ -3332,7 +3448,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "600": {
+    "609": {
       "op": "bytec 5 // 0x068101",
       "defined_out": [
         "0x068101"
@@ -3356,7 +3472,7 @@
         "0x068101"
       ]
     },
-    "602": {
+    "611": {
       "op": "itxn_field ApprovalProgram",
       "stack_out": [
         "game_box#0",
@@ -3376,7 +3492,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "604": {
+    "613": {
       "op": "bytec 5 // 0x068101",
       "stack_out": [
         "game_box#0",
@@ -3397,7 +3513,7 @@
         "0x068101"
       ]
     },
-    "606": {
+    "615": {
       "op": "itxn_field ClearStateProgram",
       "stack_out": [
         "game_box#0",
@@ -3417,7 +3533,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "608": {
+    "617": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0"
@@ -3441,7 +3557,7 @@
         "0"
       ]
     },
-    "609": {
+    "618": {
       "op": "itxn_field Fee",
       "stack_out": [
         "game_box#0",
@@ -3461,13 +3577,13 @@
         "valid_vrf_round#0"
       ]
     },
-    "611": {
+    "620": {
       "op": "itxn_submit"
     },
-    "612": {
+    "621": {
       "op": "b play_game_while_top@25"
     },
-    "615": {
+    "624": {
       "block": "play_game_after_while@30",
       "stack_in": [
         "game_box#0",
@@ -3509,7 +3625,7 @@
         "game_box_name#0 (copy)"
       ]
     },
-    "617": {
+    "626": {
       "op": "box_get",
       "defined_out": [
         "game_box#0",
@@ -3535,7 +3651,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "618": {
+    "627": {
       "op": "swap",
       "stack_out": [
         "game_box#0",
@@ -3557,7 +3673,7 @@
         "game_box#0"
       ]
     },
-    "619": {
+    "628": {
       "op": "dup",
       "stack_out": [
         "game_box#0",
@@ -3580,7 +3696,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "620": {
+    "629": {
       "op": "cover 2",
       "stack_out": [
         "game_box#0",
@@ -3603,7 +3719,7 @@
         "game_box#0"
       ]
     },
-    "622": {
+    "631": {
       "op": "frame_bury 0",
       "defined_out": [
         "game_box#0",
@@ -3629,7 +3745,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "624": {
+    "633": {
       "error": "check self.game_box entry exists",
       "op": "assert // check self.game_box entry exists",
       "stack_out": [
@@ -3651,7 +3767,7 @@
         "game_box#0"
       ]
     },
-    "625": {
+    "634": {
       "op": "dup",
       "defined_out": [
         "game_box#0",
@@ -3677,7 +3793,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "626": {
+    "635": {
       "error": "Index access is out of bounds",
       "op": "extract 80 8 // on error: Index access is out of bounds",
       "defined_out": [
@@ -3704,7 +3820,7 @@
         "vrf_round#0"
       ]
     },
-    "629": {
+    "638": {
       "op": "dup",
       "stack_out": [
         "game_box#0",
@@ -3727,7 +3843,7 @@
         "vrf_round#0"
       ]
     },
-    "630": {
+    "639": {
       "op": "frame_bury 6",
       "defined_out": [
         "game_box#0",
@@ -3753,8 +3869,8 @@
         "vrf_round#0"
       ]
     },
-    "632": {
-      "op": "bytec_1 // 0x0000000000000000",
+    "641": {
+      "op": "bytec_2 // 0x0000000000000000",
       "defined_out": [
         "0x0000000000000000",
         "game_box#0",
@@ -3781,7 +3897,7 @@
         "0x0000000000000000"
       ]
     },
-    "633": {
+    "642": {
       "op": "b!=",
       "defined_out": [
         "game_box#0",
@@ -3808,7 +3924,7 @@
         "tmp%0#3"
       ]
     },
-    "634": {
+    "643": {
       "op": "assert",
       "stack_out": [
         "game_box#0",
@@ -3829,7 +3945,7 @@
         "game_box#0"
       ]
     },
-    "635": {
+    "644": {
       "op": "global Round",
       "defined_out": [
         "game_box#0",
@@ -3856,7 +3972,7 @@
         "tmp%0#2"
       ]
     },
-    "637": {
+    "646": {
       "op": "swap",
       "stack_out": [
         "game_box#0",
@@ -3878,7 +3994,7 @@
         "game_box#0"
       ]
     },
-    "638": {
+    "647": {
       "op": "pushint 80 // 80",
       "defined_out": [
         "80",
@@ -3907,7 +4023,7 @@
         "80"
       ]
     },
-    "640": {
+    "649": {
       "op": "extract_uint64",
       "defined_out": [
         "game_box#0",
@@ -3935,7 +4051,7 @@
         "tmp%1#3"
       ]
     },
-    "641": {
+    "650": {
       "op": "-",
       "defined_out": [
         "game_box#0",
@@ -3961,7 +4077,7 @@
         "tmp%2#0"
       ]
     },
-    "642": {
+    "651": {
       "op": "pushint 1512 // 1512",
       "defined_out": [
         "1512",
@@ -3989,7 +4105,7 @@
         "1512"
       ]
     },
-    "645": {
+    "654": {
       "op": ">",
       "defined_out": [
         "game_box#0",
@@ -4015,7 +4131,7 @@
         "tmp%3#2"
       ]
     },
-    "646": {
+    "655": {
       "op": "bz play_game_after_if_else@36",
       "stack_out": [
         "game_box#0",
@@ -4035,7 +4151,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "649": {
+    "658": {
       "op": "intc_0 // 0",
       "defined_out": [
         "algopotato.AlgoPotato.get_vrf_output_modulo%0#0",
@@ -4061,7 +4177,7 @@
         "algopotato.AlgoPotato.get_vrf_output_modulo%0#0"
       ]
     },
-    "650": {
+    "659": {
       "op": "dup",
       "defined_out": [
         "algopotato.AlgoPotato.get_vrf_output_modulo%0#0",
@@ -4089,7 +4205,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "651": {
+    "660": {
       "op": "frame_bury 14",
       "defined_out": [
         "game_box#0",
@@ -4116,7 +4232,7 @@
         "modulo_240_vrf_bytes_as_int#0"
       ]
     },
-    "653": {
+    "662": {
       "op": "frame_bury 11",
       "defined_out": [
         "game_box#0",
@@ -4142,7 +4258,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "655": {
+    "664": {
       "block": "play_game_after_inlined_algopotato.AlgoPotato.get_vrf_output_modulo@37",
       "stack_in": [
         "game_box#0",
@@ -4184,7 +4300,7 @@
         "game_box#0"
       ]
     },
-    "657": {
+    "666": {
       "op": "dup",
       "defined_out": [
         "game_box#0",
@@ -4210,7 +4326,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "658": {
+    "667": {
       "error": "Index access is out of bounds",
       "op": "extract 0 32 // on error: Index access is out of bounds",
       "defined_out": [
@@ -4237,7 +4353,7 @@
         "player_1#2"
       ]
     },
-    "661": {
+    "670": {
       "op": "frame_bury 1",
       "defined_out": [
         "game_box#0",
@@ -4262,7 +4378,7 @@
         "game_box#0"
       ]
     },
-    "663": {
+    "672": {
       "op": "dup",
       "stack_out": [
         "game_box#0",
@@ -4284,7 +4400,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "664": {
+    "673": {
       "error": "Index access is out of bounds",
       "op": "extract 32 32 // on error: Index access is out of bounds",
       "defined_out": [
@@ -4312,7 +4428,7 @@
         "player_2#1"
       ]
     },
-    "667": {
+    "676": {
       "op": "frame_bury 2",
       "stack_out": [
         "game_box#0",
@@ -4333,7 +4449,7 @@
         "game_box#0"
       ]
     },
-    "669": {
+    "678": {
       "op": "dup",
       "stack_out": [
         "game_box#0",
@@ -4355,7 +4471,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "670": {
+    "679": {
       "op": "pushint 88 // 88",
       "defined_out": [
         "88",
@@ -4385,7 +4501,7 @@
         "88"
       ]
     },
-    "672": {
+    "681": {
       "op": "extract_uint64",
       "defined_out": [
         "asset#0",
@@ -4413,7 +4529,7 @@
         "asset#0"
       ]
     },
-    "673": {
+    "682": {
       "op": "dup",
       "stack_out": [
         "game_box#0",
@@ -4436,7 +4552,7 @@
         "asset#0 (copy)"
       ]
     },
-    "674": {
+    "683": {
       "op": "cover 2",
       "stack_out": [
         "game_box#0",
@@ -4459,7 +4575,7 @@
         "asset#0"
       ]
     },
-    "676": {
+    "685": {
       "op": "frame_bury 7",
       "defined_out": [
         "asset#0",
@@ -4487,7 +4603,7 @@
         "game_box#0"
       ]
     },
-    "678": {
+    "687": {
       "op": "pushint 96 // 96",
       "defined_out": [
         "96",
@@ -4517,7 +4633,7 @@
         "96"
       ]
     },
-    "680": {
+    "689": {
       "op": "extract_uint64",
       "defined_out": [
         "asset#0",
@@ -4546,7 +4662,7 @@
         "tmp%2#0"
       ]
     },
-    "681": {
+    "690": {
       "op": "intc_3 // 2",
       "stack_out": [
         "game_box#0",
@@ -4569,7 +4685,7 @@
         "2"
       ]
     },
-    "682": {
+    "691": {
       "op": "*",
       "defined_out": [
         "asset#0",
@@ -4598,7 +4714,7 @@
         "asset_amount#1"
       ]
     },
-    "683": {
+    "692": {
       "op": "frame_bury 8",
       "defined_out": [
         "asset#0",
@@ -4626,7 +4742,7 @@
         "asset#0"
       ]
     },
-    "685": {
+    "694": {
       "op": "bnz play_game_else_body@40",
       "stack_out": [
         "game_box#0",
@@ -4646,7 +4762,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "688": {
+    "697": {
       "op": "intc_1 // 1",
       "defined_out": [
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0",
@@ -4675,8 +4791,8 @@
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0"
       ]
     },
-    "689": {
-      "op": "bytec_2 // \"\"",
+    "698": {
+      "op": "bytec_3 // \"\"",
       "defined_out": [
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0",
         "asset#0",
@@ -4706,7 +4822,7 @@
         "return_message#0"
       ]
     },
-    "690": {
+    "699": {
       "op": "frame_bury 5",
       "defined_out": [
         "asset#0",
@@ -4736,7 +4852,7 @@
         "both_users_opted_into_asset#0"
       ]
     },
-    "692": {
+    "701": {
       "op": "frame_bury 9",
       "defined_out": [
         "asset#0",
@@ -4765,7 +4881,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "694": {
+    "703": {
       "block": "play_game_after_inlined_algopotato.AlgoPotato.verify_both_users_opted_in@45",
       "stack_in": [
         "game_box#0",
@@ -4807,7 +4923,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "696": {
+    "705": {
       "op": "bnz play_game_else_body@2",
       "stack_out": [
         "game_box#0",
@@ -4827,7 +4943,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "699": {
+    "708": {
       "op": "global Round",
       "defined_out": [
         "tmp%2#0",
@@ -4852,7 +4968,7 @@
         "tmp%2#0"
       ]
     },
-    "701": {
+    "710": {
       "op": "pushint 9 // 9",
       "defined_out": [
         "9",
@@ -4879,7 +4995,7 @@
         "9"
       ]
     },
-    "703": {
+    "712": {
       "op": "+",
       "defined_out": [
         "to_encode%0#0",
@@ -4904,7 +5020,7 @@
         "to_encode%0#0"
       ]
     },
-    "704": {
+    "713": {
       "op": "itob",
       "defined_out": [
         "val_as_bytes%0#0",
@@ -4929,7 +5045,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "705": {
+    "714": {
       "op": "frame_dig 0",
       "defined_out": [
         "game_box#0",
@@ -4956,7 +5072,7 @@
         "game_box#0"
       ]
     },
-    "707": {
+    "716": {
       "op": "swap",
       "stack_out": [
         "game_box#0",
@@ -4978,7 +5094,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "708": {
+    "717": {
       "op": "replace2 80",
       "stack_out": [
         "game_box#0",
@@ -4999,7 +5115,7 @@
         "game_box#0"
       ]
     },
-    "710": {
+    "719": {
       "op": "frame_dig -1",
       "defined_out": [
         "game_box#0",
@@ -5026,7 +5142,7 @@
         "game_box_name#0 (copy)"
       ]
     },
-    "712": {
+    "721": {
       "op": "swap",
       "stack_out": [
         "game_box#0",
@@ -5048,7 +5164,7 @@
         "game_box#0"
       ]
     },
-    "713": {
+    "722": {
       "op": "box_put",
       "stack_out": [
         "game_box#0",
@@ -5068,7 +5184,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "714": {
+    "723": {
       "op": "pushbytes \"VRF Round expired\"",
       "defined_out": [
         "\"VRF Round expired\"",
@@ -5094,14 +5210,14 @@
         "\"VRF Round expired\""
       ]
     },
-    "733": {
+    "742": {
       "op": "frame_bury 0"
     },
-    "735": {
+    "744": {
       "retsub": true,
       "op": "retsub"
     },
-    "736": {
+    "745": {
       "block": "play_game_else_body@2",
       "stack_in": [
         "game_box#0",
@@ -5143,7 +5259,7 @@
         "both_users_opted_into_asset#0"
       ]
     },
-    "738": {
+    "747": {
       "op": "bnz play_game_else_body@4",
       "stack_out": [
         "game_box#0",
@@ -5163,7 +5279,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "741": {
+    "750": {
       "op": "frame_dig -1",
       "defined_out": [
         "both_users_opted_into_asset#0",
@@ -5188,7 +5304,7 @@
         "game_box_name#0 (copy)"
       ]
     },
-    "743": {
+    "752": {
       "op": "box_del",
       "defined_out": [
         "both_users_opted_into_asset#0",
@@ -5213,7 +5329,7 @@
         "{box_del}"
       ]
     },
-    "744": {
+    "753": {
       "op": "pop",
       "stack_out": [
         "game_box#0",
@@ -5233,7 +5349,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "745": {
+    "754": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -5258,7 +5374,7 @@
         "0"
       ]
     },
-    "746": {
+    "755": {
       "op": "bytec_0 // \"games_played\"",
       "defined_out": [
         "\"games_played\"",
@@ -5285,7 +5401,7 @@
         "\"games_played\""
       ]
     },
-    "747": {
+    "756": {
       "op": "app_global_get_ex",
       "defined_out": [
         "both_users_opted_into_asset#0",
@@ -5312,7 +5428,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "748": {
+    "757": {
       "error": "check self.games_played exists",
       "op": "assert // check self.games_played exists",
       "stack_out": [
@@ -5334,7 +5450,7 @@
         "maybe_value%1#0"
       ]
     },
-    "749": {
+    "758": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -5361,7 +5477,7 @@
         "1"
       ]
     },
-    "750": {
+    "759": {
       "op": "+",
       "defined_out": [
         "both_users_opted_into_asset#0",
@@ -5386,7 +5502,7 @@
         "new_state_value%0#0"
       ]
     },
-    "751": {
+    "760": {
       "op": "bytec_0 // \"games_played\"",
       "stack_out": [
         "game_box#0",
@@ -5408,7 +5524,7 @@
         "\"games_played\""
       ]
     },
-    "752": {
+    "761": {
       "op": "swap",
       "stack_out": [
         "game_box#0",
@@ -5430,7 +5546,7 @@
         "new_state_value%0#0"
       ]
     },
-    "753": {
+    "762": {
       "op": "app_global_put",
       "stack_out": [
         "game_box#0",
@@ -5450,7 +5566,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "754": {
+    "763": {
       "op": "frame_dig 5",
       "defined_out": [
         "both_users_opted_into_asset#0",
@@ -5475,14 +5591,14 @@
         "return_message#0"
       ]
     },
-    "756": {
+    "765": {
       "op": "frame_bury 0"
     },
-    "758": {
+    "767": {
       "retsub": true,
       "op": "retsub"
     },
-    "759": {
+    "768": {
       "block": "play_game_else_body@4",
       "stack_in": [
         "game_box#0",
@@ -5524,7 +5640,7 @@
         "potato_holder#1"
       ]
     },
-    "761": {
+    "770": {
       "op": "frame_bury 3",
       "defined_out": [
         "potato_holder#1"
@@ -5547,7 +5663,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "763": {
+    "772": {
       "op": "frame_dig 11",
       "defined_out": [
         "modulo_240_vrf_bytes_as_int#0",
@@ -5572,7 +5688,7 @@
         "modulo_240_vrf_bytes_as_int#0"
       ]
     },
-    "765": {
+    "774": {
       "op": "intc_1 // 1",
       "stack_out": [
         "game_box#0",
@@ -5594,7 +5710,7 @@
         "1"
       ]
     },
-    "766": {
+    "775": {
       "op": "+",
       "defined_out": [
         "modulo_240_vrf_bytes_as_int#0",
@@ -5620,7 +5736,7 @@
         "tmp%3#1"
       ]
     },
-    "767": {
+    "776": {
       "op": "frame_bury 12",
       "defined_out": [
         "modulo_240_vrf_bytes_as_int#0",
@@ -5645,7 +5761,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "769": {
+    "778": {
       "op": "intc_0 // 0",
       "defined_out": [
         "i#0",
@@ -5672,7 +5788,7 @@
         "i#0"
       ]
     },
-    "770": {
+    "779": {
       "op": "frame_bury 10",
       "defined_out": [
         "i#0",
@@ -5698,7 +5814,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "772": {
+    "781": {
       "block": "play_game_for_header@8",
       "stack_in": [
         "game_box#0",
@@ -5740,7 +5856,7 @@
         "i#0"
       ]
     },
-    "774": {
+    "783": {
       "op": "frame_dig 12",
       "defined_out": [
         "i#0",
@@ -5766,7 +5882,7 @@
         "tmp%3#1"
       ]
     },
-    "776": {
+    "785": {
       "op": "<",
       "defined_out": [
         "continue_looping%0#0",
@@ -5792,7 +5908,7 @@
         "continue_looping%0#0"
       ]
     },
-    "777": {
+    "786": {
       "op": "frame_dig 3",
       "defined_out": [
         "continue_looping%0#0",
@@ -5820,7 +5936,7 @@
         "potato_holder#18"
       ]
     },
-    "779": {
+    "788": {
       "op": "frame_bury 4",
       "defined_out": [
         "continue_looping%0#0",
@@ -5847,7 +5963,7 @@
         "continue_looping%0#0"
       ]
     },
-    "781": {
+    "790": {
       "op": "bz play_game_after_for@22",
       "stack_out": [
         "game_box#0",
@@ -5867,7 +5983,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "784": {
+    "793": {
       "op": "frame_dig 10",
       "stack_out": [
         "game_box#0",
@@ -5888,7 +6004,7 @@
         "i#0"
       ]
     },
-    "786": {
+    "795": {
       "op": "intc_3 // 2",
       "defined_out": [
         "2",
@@ -5916,7 +6032,7 @@
         "2"
       ]
     },
-    "787": {
+    "796": {
       "op": "%",
       "defined_out": [
         "i#0",
@@ -5943,7 +6059,7 @@
         "tmp%4#1"
       ]
     },
-    "788": {
+    "797": {
       "op": "dup",
       "stack_out": [
         "game_box#0",
@@ -5965,7 +6081,7 @@
         "tmp%4#1"
       ]
     },
-    "789": {
+    "798": {
       "op": "frame_bury 13",
       "defined_out": [
         "i#0",
@@ -5992,7 +6108,7 @@
         "tmp%4#1"
       ]
     },
-    "791": {
+    "800": {
       "op": "bnz play_game_after_if_else@11",
       "stack_out": [
         "game_box#0",
@@ -6012,7 +6128,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "794": {
+    "803": {
       "op": "frame_dig 1",
       "defined_out": [
         "i#0",
@@ -6040,7 +6156,7 @@
         "potato_holder#1"
       ]
     },
-    "796": {
+    "805": {
       "op": "frame_bury 3",
       "stack_out": [
         "game_box#0",
@@ -6060,7 +6176,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "798": {
+    "807": {
       "block": "play_game_after_if_else@11",
       "stack_in": [
         "game_box#0",
@@ -6102,7 +6218,7 @@
         "tmp%4#1"
       ]
     },
-    "800": {
+    "809": {
       "op": "bz play_game_after_if_else@13",
       "stack_out": [
         "game_box#0",
@@ -6122,7 +6238,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "803": {
+    "812": {
       "op": "frame_dig 2",
       "defined_out": [
         "potato_holder#1",
@@ -6147,7 +6263,7 @@
         "potato_holder#1"
       ]
     },
-    "805": {
+    "814": {
       "op": "frame_bury 3",
       "defined_out": [
         "potato_holder#1",
@@ -6171,7 +6287,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "807": {
+    "816": {
       "block": "play_game_after_if_else@13",
       "stack_in": [
         "game_box#0",
@@ -6213,7 +6329,7 @@
         "i#0"
       ]
     },
-    "809": {
+    "818": {
       "op": "frame_dig 11",
       "defined_out": [
         "i#0",
@@ -6239,7 +6355,7 @@
         "modulo_240_vrf_bytes_as_int#0"
       ]
     },
-    "811": {
+    "820": {
       "op": "==",
       "defined_out": [
         "i#0",
@@ -6265,7 +6381,7 @@
         "tmp%8#0"
       ]
     },
-    "812": {
+    "821": {
       "op": "bz play_game_after_if_else@18",
       "stack_out": [
         "game_box#0",
@@ -6285,7 +6401,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "815": {
+    "824": {
       "op": "frame_dig 7",
       "defined_out": [
         "asset#0",
@@ -6311,7 +6427,7 @@
         "asset#0"
       ]
     },
-    "817": {
+    "826": {
       "op": "bnz play_game_else_body@16",
       "stack_out": [
         "game_box#0",
@@ -6331,10 +6447,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "820": {
+    "829": {
       "op": "itxn_begin"
     },
-    "821": {
+    "830": {
       "op": "frame_dig 8",
       "defined_out": [
         "asset#0",
@@ -6361,7 +6477,7 @@
         "asset_amount#1"
       ]
     },
-    "823": {
+    "832": {
       "op": "itxn_field Amount",
       "stack_out": [
         "game_box#0",
@@ -6381,7 +6497,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "825": {
+    "834": {
       "op": "frame_dig 3",
       "defined_out": [
         "asset#0",
@@ -6409,7 +6525,7 @@
         "potato_holder#1"
       ]
     },
-    "827": {
+    "836": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "game_box#0",
@@ -6429,7 +6545,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "829": {
+    "838": {
       "op": "intc_1 // pay",
       "defined_out": [
         "asset#0",
@@ -6458,7 +6574,7 @@
         "pay"
       ]
     },
-    "830": {
+    "839": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "game_box#0",
@@ -6478,7 +6594,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "832": {
+    "841": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -6507,7 +6623,7 @@
         "0"
       ]
     },
-    "833": {
+    "842": {
       "op": "itxn_field Fee",
       "stack_out": [
         "game_box#0",
@@ -6527,10 +6643,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "835": {
+    "844": {
       "op": "itxn_submit"
     },
-    "836": {
+    "845": {
       "block": "play_game_after_if_else@17",
       "stack_in": [
         "game_box#0",
@@ -6572,7 +6688,7 @@
         "potato_holder#18"
       ]
     },
-    "838": {
+    "847": {
       "op": "frame_bury 4",
       "defined_out": [
         "potato_holder#18"
@@ -6595,7 +6711,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "840": {
+    "849": {
       "block": "play_game_after_for@22",
       "stack_in": [
         "game_box#0",
@@ -6637,7 +6753,7 @@
         "potato_holder#1"
       ]
     },
-    "842": {
+    "851": {
       "op": "frame_dig -1",
       "defined_out": [
         "game_box_name#0 (copy)",
@@ -6663,7 +6779,7 @@
         "game_box_name#0 (copy)"
       ]
     },
-    "844": {
+    "853": {
       "op": "box_del",
       "defined_out": [
         "potato_holder#1",
@@ -6689,7 +6805,7 @@
         "{box_del}"
       ]
     },
-    "845": {
+    "854": {
       "op": "pop",
       "stack_out": [
         "game_box#0",
@@ -6710,7 +6826,7 @@
         "potato_holder#1"
       ]
     },
-    "846": {
+    "855": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -6736,7 +6852,7 @@
         "0"
       ]
     },
-    "847": {
+    "856": {
       "op": "bytec_0 // \"games_played\"",
       "defined_out": [
         "\"games_played\"",
@@ -6764,7 +6880,7 @@
         "\"games_played\""
       ]
     },
-    "848": {
+    "857": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -6792,7 +6908,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "849": {
+    "858": {
       "error": "check self.games_played exists",
       "op": "assert // check self.games_played exists",
       "stack_out": [
@@ -6815,7 +6931,7 @@
         "maybe_value%2#0"
       ]
     },
-    "850": {
+    "859": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -6843,7 +6959,7 @@
         "1"
       ]
     },
-    "851": {
+    "860": {
       "op": "+",
       "defined_out": [
         "new_state_value%1#0",
@@ -6869,7 +6985,7 @@
         "new_state_value%1#0"
       ]
     },
-    "852": {
+    "861": {
       "op": "bytec_0 // \"games_played\"",
       "stack_out": [
         "game_box#0",
@@ -6892,7 +7008,7 @@
         "\"games_played\""
       ]
     },
-    "853": {
+    "862": {
       "op": "swap",
       "stack_out": [
         "game_box#0",
@@ -6915,7 +7031,7 @@
         "new_state_value%1#0"
       ]
     },
-    "854": {
+    "863": {
       "op": "app_global_put",
       "stack_out": [
         "game_box#0",
@@ -6936,7 +7052,7 @@
         "potato_holder#1"
       ]
     },
-    "855": {
+    "864": {
       "op": "frame_dig 1",
       "defined_out": [
         "player_1#2",
@@ -6962,7 +7078,7 @@
         "player_1#2"
       ]
     },
-    "857": {
+    "866": {
       "op": "==",
       "defined_out": [
         "player_1#2",
@@ -6988,7 +7104,7 @@
         "tmp%6#0"
       ]
     },
-    "858": {
+    "867": {
       "op": "bz play_game_else_body@6",
       "stack_out": [
         "game_box#0",
@@ -7008,7 +7124,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "861": {
+    "870": {
       "op": "pushbytes \"Player 1 Wins!\"",
       "defined_out": [
         "\"Player 1 Wins!\"",
@@ -7034,14 +7150,14 @@
         "\"Player 1 Wins!\""
       ]
     },
-    "877": {
+    "886": {
       "op": "frame_bury 0"
     },
-    "879": {
+    "888": {
       "retsub": true,
       "op": "retsub"
     },
-    "880": {
+    "889": {
       "block": "play_game_else_body@6",
       "stack_in": [
         "game_box#0",
@@ -7083,14 +7199,14 @@
         "\"Player 2 Wins!\""
       ]
     },
-    "896": {
+    "905": {
       "op": "frame_bury 0"
     },
-    "898": {
+    "907": {
       "retsub": true,
       "op": "retsub"
     },
-    "899": {
+    "908": {
       "block": "play_game_else_body@16",
       "stack_in": [
         "game_box#0",
@@ -7111,7 +7227,7 @@
       ],
       "op": "itxn_begin"
     },
-    "900": {
+    "909": {
       "op": "frame_dig 8",
       "defined_out": [
         "asset_amount#1"
@@ -7135,7 +7251,7 @@
         "asset_amount#1"
       ]
     },
-    "902": {
+    "911": {
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "game_box#0",
@@ -7155,7 +7271,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "904": {
+    "913": {
       "op": "frame_dig 3",
       "defined_out": [
         "asset_amount#1",
@@ -7180,7 +7296,7 @@
         "potato_holder#1"
       ]
     },
-    "906": {
+    "915": {
       "op": "itxn_field AssetReceiver",
       "stack_out": [
         "game_box#0",
@@ -7200,7 +7316,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "908": {
+    "917": {
       "op": "frame_dig 7",
       "defined_out": [
         "asset#0",
@@ -7226,7 +7342,7 @@
         "asset#0"
       ]
     },
-    "910": {
+    "919": {
       "op": "itxn_field XferAsset",
       "stack_out": [
         "game_box#0",
@@ -7246,7 +7362,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "912": {
+    "921": {
       "op": "intc_2 // axfer",
       "defined_out": [
         "asset#0",
@@ -7273,7 +7389,7 @@
         "axfer"
       ]
     },
-    "913": {
+    "922": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "game_box#0",
@@ -7293,7 +7409,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "915": {
+    "924": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -7320,7 +7436,7 @@
         "0"
       ]
     },
-    "916": {
+    "925": {
       "op": "itxn_field Fee",
       "stack_out": [
         "game_box#0",
@@ -7340,13 +7456,13 @@
         "valid_vrf_round#0"
       ]
     },
-    "918": {
+    "927": {
       "op": "itxn_submit"
     },
-    "919": {
+    "928": {
       "op": "b play_game_after_if_else@17"
     },
-    "922": {
+    "931": {
       "block": "play_game_after_if_else@18",
       "stack_in": [
         "game_box#0",
@@ -7388,7 +7504,7 @@
         "asset#0"
       ]
     },
-    "924": {
+    "933": {
       "op": "bnz play_game_else_body@20",
       "stack_out": [
         "game_box#0",
@@ -7408,10 +7524,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "927": {
+    "936": {
       "op": "itxn_begin"
     },
-    "928": {
+    "937": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -7436,7 +7552,7 @@
         "0"
       ]
     },
-    "929": {
+    "938": {
       "op": "itxn_field Amount",
       "stack_out": [
         "game_box#0",
@@ -7456,7 +7572,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "931": {
+    "940": {
       "op": "frame_dig 3",
       "defined_out": [
         "asset#0",
@@ -7481,7 +7597,7 @@
         "potato_holder#1"
       ]
     },
-    "933": {
+    "942": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "game_box#0",
@@ -7501,7 +7617,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "935": {
+    "944": {
       "op": "intc_1 // pay",
       "defined_out": [
         "asset#0",
@@ -7527,7 +7643,7 @@
         "pay"
       ]
     },
-    "936": {
+    "945": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "game_box#0",
@@ -7547,7 +7663,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "938": {
+    "947": {
       "op": "intc_0 // 0",
       "stack_out": [
         "game_box#0",
@@ -7568,7 +7684,7 @@
         "0"
       ]
     },
-    "939": {
+    "948": {
       "op": "itxn_field Fee",
       "stack_out": [
         "game_box#0",
@@ -7588,10 +7704,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "941": {
+    "950": {
       "op": "itxn_submit"
     },
-    "942": {
+    "951": {
       "block": "play_game_after_if_else@21",
       "stack_in": [
         "game_box#0",
@@ -7633,7 +7749,7 @@
         "i#0"
       ]
     },
-    "944": {
+    "953": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -7659,7 +7775,7 @@
         "1"
       ]
     },
-    "945": {
+    "954": {
       "op": "+",
       "stack_out": [
         "game_box#0",
@@ -7680,7 +7796,7 @@
         "i#0"
       ]
     },
-    "946": {
+    "955": {
       "op": "frame_bury 10",
       "defined_out": [
         "i#0"
@@ -7703,10 +7819,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "948": {
+    "957": {
       "op": "b play_game_for_header@8"
     },
-    "951": {
+    "960": {
       "block": "play_game_else_body@20",
       "stack_in": [
         "game_box#0",
@@ -7727,7 +7843,7 @@
       ],
       "op": "itxn_begin"
     },
-    "952": {
+    "961": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0"
@@ -7751,7 +7867,7 @@
         "0"
       ]
     },
-    "953": {
+    "962": {
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "game_box#0",
@@ -7771,7 +7887,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "955": {
+    "964": {
       "op": "frame_dig 3",
       "defined_out": [
         "potato_holder#1"
@@ -7795,7 +7911,7 @@
         "potato_holder#1"
       ]
     },
-    "957": {
+    "966": {
       "op": "itxn_field AssetReceiver",
       "stack_out": [
         "game_box#0",
@@ -7815,7 +7931,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "959": {
+    "968": {
       "op": "frame_dig 7",
       "defined_out": [
         "asset#0",
@@ -7840,7 +7956,7 @@
         "asset#0"
       ]
     },
-    "961": {
+    "970": {
       "op": "itxn_field XferAsset",
       "stack_out": [
         "game_box#0",
@@ -7860,7 +7976,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "963": {
+    "972": {
       "op": "intc_2 // axfer",
       "defined_out": [
         "asset#0",
@@ -7886,7 +8002,7 @@
         "axfer"
       ]
     },
-    "964": {
+    "973": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "game_box#0",
@@ -7906,7 +8022,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "966": {
+    "975": {
       "op": "intc_0 // 0",
       "stack_out": [
         "game_box#0",
@@ -7927,7 +8043,7 @@
         "0"
       ]
     },
-    "967": {
+    "976": {
       "op": "itxn_field Fee",
       "stack_out": [
         "game_box#0",
@@ -7947,13 +8063,13 @@
         "valid_vrf_round#0"
       ]
     },
-    "969": {
+    "978": {
       "op": "itxn_submit"
     },
-    "970": {
+    "979": {
       "op": "b play_game_after_if_else@21"
     },
-    "973": {
+    "982": {
       "block": "play_game_else_body@40",
       "stack_in": [
         "game_box#0",
@@ -7995,7 +8111,7 @@
         "player_1#2"
       ]
     },
-    "975": {
+    "984": {
       "op": "frame_dig 7",
       "defined_out": [
         "asset#0",
@@ -8021,7 +8137,7 @@
         "asset#0"
       ]
     },
-    "977": {
+    "986": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset#0",
@@ -8049,7 +8165,7 @@
         "tmp%5#3"
       ]
     },
-    "979": {
+    "988": {
       "op": "bury 1",
       "stack_out": [
         "game_box#0",
@@ -8070,7 +8186,7 @@
         "tmp%5#3"
       ]
     },
-    "981": {
+    "990": {
       "op": "bnz play_game_else_body@42",
       "stack_out": [
         "game_box#0",
@@ -8090,10 +8206,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "984": {
+    "993": {
       "op": "itxn_begin"
     },
-    "985": {
+    "994": {
       "op": "frame_dig 8",
       "defined_out": [
         "asset#0",
@@ -8120,7 +8236,7 @@
         "asset_amount#1"
       ]
     },
-    "987": {
+    "996": {
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "game_box#0",
@@ -8140,7 +8256,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "989": {
+    "998": {
       "op": "frame_dig 2",
       "defined_out": [
         "asset#0",
@@ -8168,7 +8284,7 @@
         "player_2#1"
       ]
     },
-    "991": {
+    "1000": {
       "op": "itxn_field AssetReceiver",
       "stack_out": [
         "game_box#0",
@@ -8188,7 +8304,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "993": {
+    "1002": {
       "op": "frame_dig 7",
       "stack_out": [
         "game_box#0",
@@ -8209,7 +8325,7 @@
         "asset#0"
       ]
     },
-    "995": {
+    "1004": {
       "op": "itxn_field XferAsset",
       "stack_out": [
         "game_box#0",
@@ -8229,7 +8345,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "997": {
+    "1006": {
       "op": "intc_2 // axfer",
       "defined_out": [
         "asset#0",
@@ -8258,7 +8374,7 @@
         "axfer"
       ]
     },
-    "998": {
+    "1007": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "game_box#0",
@@ -8278,7 +8394,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "1000": {
+    "1009": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -8307,7 +8423,7 @@
         "0"
       ]
     },
-    "1001": {
+    "1010": {
       "op": "itxn_field Fee",
       "stack_out": [
         "game_box#0",
@@ -8327,10 +8443,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "1003": {
+    "1012": {
       "op": "itxn_submit"
     },
-    "1004": {
+    "1013": {
       "op": "intc_0 // 0",
       "defined_out": [
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0",
@@ -8359,7 +8475,7 @@
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0"
       ]
     },
-    "1005": {
+    "1014": {
       "op": "pushbytes \"Player 1 Forfeit by opting out\"",
       "defined_out": [
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0",
@@ -8390,7 +8506,7 @@
         "return_message#0"
       ]
     },
-    "1037": {
+    "1046": {
       "op": "frame_bury 5",
       "defined_out": [
         "asset#0",
@@ -8420,7 +8536,7 @@
         "both_users_opted_into_asset#0"
       ]
     },
-    "1039": {
+    "1048": {
       "op": "frame_bury 9",
       "defined_out": [
         "asset#0",
@@ -8449,10 +8565,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "1041": {
+    "1050": {
       "op": "b play_game_after_inlined_algopotato.AlgoPotato.verify_both_users_opted_in@45"
     },
-    "1044": {
+    "1053": {
       "block": "play_game_else_body@42",
       "stack_in": [
         "game_box#0",
@@ -8494,7 +8610,7 @@
         "player_2#1"
       ]
     },
-    "1046": {
+    "1055": {
       "op": "frame_dig 7",
       "defined_out": [
         "asset#0",
@@ -8520,7 +8636,7 @@
         "asset#0"
       ]
     },
-    "1048": {
+    "1057": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset#0",
@@ -8548,7 +8664,7 @@
         "tmp%8#0"
       ]
     },
-    "1050": {
+    "1059": {
       "op": "bury 1",
       "stack_out": [
         "game_box#0",
@@ -8569,7 +8685,7 @@
         "tmp%8#0"
       ]
     },
-    "1052": {
+    "1061": {
       "op": "bnz play_game_else_body@44",
       "stack_out": [
         "game_box#0",
@@ -8589,10 +8705,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "1055": {
+    "1064": {
       "op": "itxn_begin"
     },
-    "1056": {
+    "1065": {
       "op": "frame_dig 8",
       "defined_out": [
         "asset#0",
@@ -8618,7 +8734,7 @@
         "asset_amount#1"
       ]
     },
-    "1058": {
+    "1067": {
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "game_box#0",
@@ -8638,7 +8754,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "1060": {
+    "1069": {
       "op": "frame_dig 1",
       "defined_out": [
         "asset#0",
@@ -8665,7 +8781,7 @@
         "player_1#2"
       ]
     },
-    "1062": {
+    "1071": {
       "op": "itxn_field AssetReceiver",
       "stack_out": [
         "game_box#0",
@@ -8685,7 +8801,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "1064": {
+    "1073": {
       "op": "frame_dig 7",
       "stack_out": [
         "game_box#0",
@@ -8706,7 +8822,7 @@
         "asset#0"
       ]
     },
-    "1066": {
+    "1075": {
       "op": "itxn_field XferAsset",
       "stack_out": [
         "game_box#0",
@@ -8726,7 +8842,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "1068": {
+    "1077": {
       "op": "intc_2 // axfer",
       "defined_out": [
         "asset#0",
@@ -8754,7 +8870,7 @@
         "axfer"
       ]
     },
-    "1069": {
+    "1078": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "game_box#0",
@@ -8774,7 +8890,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "1071": {
+    "1080": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -8802,7 +8918,7 @@
         "0"
       ]
     },
-    "1072": {
+    "1081": {
       "op": "itxn_field Fee",
       "stack_out": [
         "game_box#0",
@@ -8822,10 +8938,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "1074": {
+    "1083": {
       "op": "itxn_submit"
     },
-    "1075": {
+    "1084": {
       "op": "intc_0 // 0",
       "defined_out": [
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0",
@@ -8853,7 +8969,7 @@
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0"
       ]
     },
-    "1076": {
+    "1085": {
       "op": "pushbytes \"Player 2 Forfeit by opting out\"",
       "defined_out": [
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0",
@@ -8883,7 +8999,7 @@
         "return_message#0"
       ]
     },
-    "1108": {
+    "1117": {
       "op": "frame_bury 5",
       "defined_out": [
         "asset#0",
@@ -8912,7 +9028,7 @@
         "both_users_opted_into_asset#0"
       ]
     },
-    "1110": {
+    "1119": {
       "op": "frame_bury 9",
       "defined_out": [
         "asset#0",
@@ -8940,10 +9056,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "1112": {
+    "1121": {
       "op": "b play_game_after_inlined_algopotato.AlgoPotato.verify_both_users_opted_in@45"
     },
-    "1115": {
+    "1124": {
       "block": "play_game_else_body@44",
       "stack_in": [
         "game_box#0",
@@ -8985,8 +9101,8 @@
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0"
       ]
     },
-    "1116": {
-      "op": "bytec_2 // \"\"",
+    "1125": {
+      "op": "bytec_3 // \"\"",
       "defined_out": [
         "algopotato.AlgoPotato.verify_both_users_opted_in%0#0",
         "return_message#0"
@@ -9011,7 +9127,7 @@
         "return_message#0"
       ]
     },
-    "1117": {
+    "1126": {
       "op": "frame_bury 5",
       "defined_out": [
         "both_users_opted_into_asset#0",
@@ -9036,7 +9152,7 @@
         "both_users_opted_into_asset#0"
       ]
     },
-    "1119": {
+    "1128": {
       "op": "frame_bury 9",
       "defined_out": [
         "both_users_opted_into_asset#0",
@@ -9060,10 +9176,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "1121": {
+    "1130": {
       "op": "b play_game_after_inlined_algopotato.AlgoPotato.verify_both_users_opted_in@45"
     },
-    "1124": {
+    "1133": {
       "block": "play_game_after_if_else@36",
       "stack_in": [
         "game_box#0",
@@ -9084,7 +9200,7 @@
       ],
       "op": "itxn_begin"
     },
-    "1125": {
+    "1134": {
       "op": "frame_dig 0",
       "defined_out": [
         "game_box#0"
@@ -9108,7 +9224,7 @@
         "game_box#0"
       ]
     },
-    "1127": {
+    "1136": {
       "op": "dup",
       "defined_out": [
         "game_box#0",
@@ -9134,7 +9250,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "1128": {
+    "1137": {
       "op": "len",
       "defined_out": [
         "game_box#0",
@@ -9160,7 +9276,7 @@
         "length%0#0"
       ]
     },
-    "1129": {
+    "1138": {
       "op": "itob",
       "defined_out": [
         "as_bytes%0#0",
@@ -9186,7 +9302,7 @@
         "as_bytes%0#0"
       ]
     },
-    "1130": {
+    "1139": {
       "op": "extract 6 2",
       "defined_out": [
         "game_box#0",
@@ -9212,7 +9328,7 @@
         "length_uint16%0#0"
       ]
     },
-    "1133": {
+    "1142": {
       "op": "swap",
       "stack_out": [
         "game_box#0",
@@ -9234,7 +9350,7 @@
         "game_box#0"
       ]
     },
-    "1134": {
+    "1143": {
       "op": "concat",
       "defined_out": [
         "encoded_value%0#0",
@@ -9259,7 +9375,7 @@
         "encoded_value%0#0"
       ]
     },
-    "1135": {
+    "1144": {
       "op": "intc 4 // 600011887",
       "defined_out": [
         "600011887",
@@ -9286,7 +9402,7 @@
         "600011887"
       ]
     },
-    "1137": {
+    "1146": {
       "op": "itxn_field ApplicationID",
       "stack_out": [
         "game_box#0",
@@ -9307,7 +9423,7 @@
         "encoded_value%0#0"
       ]
     },
-    "1139": {
+    "1148": {
       "op": "pushbytes 0x47c20c23 // method \"must_get(uint64,byte[])byte[]\"",
       "defined_out": [
         "Method(must_get(uint64,byte[])byte[])",
@@ -9334,7 +9450,7 @@
         "Method(must_get(uint64,byte[])byte[])"
       ]
     },
-    "1145": {
+    "1154": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "game_box#0",
@@ -9355,7 +9471,7 @@
         "encoded_value%0#0"
       ]
     },
-    "1147": {
+    "1156": {
       "op": "frame_dig 6",
       "defined_out": [
         "encoded_value%0#0",
@@ -9382,7 +9498,7 @@
         "vrf_round#0"
       ]
     },
-    "1149": {
+    "1158": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "game_box#0",
@@ -9403,7 +9519,7 @@
         "encoded_value%0#0"
       ]
     },
-    "1151": {
+    "1160": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "game_box#0",
@@ -9423,7 +9539,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "1153": {
+    "1162": {
       "op": "pushint 6 // appl",
       "defined_out": [
         "appl",
@@ -9449,7 +9565,7 @@
         "appl"
       ]
     },
-    "1155": {
+    "1164": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "game_box#0",
@@ -9469,7 +9585,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "1157": {
+    "1166": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -9495,7 +9611,7 @@
         "0"
       ]
     },
-    "1158": {
+    "1167": {
       "op": "itxn_field Fee",
       "stack_out": [
         "game_box#0",
@@ -9515,10 +9631,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "1160": {
+    "1169": {
       "op": "itxn_submit"
     },
-    "1161": {
+    "1170": {
       "op": "itxn LastLog",
       "defined_out": [
         "awst_tmp%0#0",
@@ -9544,7 +9660,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "1163": {
+    "1172": {
       "op": "dup",
       "defined_out": [
         "awst_tmp%0#0",
@@ -9572,7 +9688,7 @@
         "awst_tmp%0#0 (copy)"
       ]
     },
-    "1164": {
+    "1173": {
       "op": "extract 0 4",
       "defined_out": [
         "awst_tmp%0#0",
@@ -9600,7 +9716,7 @@
         "tmp%5#2"
       ]
     },
-    "1167": {
+    "1176": {
       "op": "bytec 4 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -9630,7 +9746,7 @@
         "0x151f7c75"
       ]
     },
-    "1169": {
+    "1178": {
       "op": "==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -9658,7 +9774,7 @@
         "tmp%6#0"
       ]
     },
-    "1170": {
+    "1179": {
       "error": "ARC4 prefix is valid",
       "op": "assert // ARC4 prefix is valid",
       "stack_out": [
@@ -9680,7 +9796,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "1171": {
+    "1180": {
       "op": "extract 6 0",
       "defined_out": [
         "game_box#0",
@@ -9706,7 +9822,7 @@
         "result#0"
       ]
     },
-    "1174": {
+    "1183": {
       "op": "pushbytes 0xf0",
       "defined_out": [
         "0xf0",
@@ -9734,7 +9850,7 @@
         "0xf0"
       ]
     },
-    "1177": {
+    "1186": {
       "op": "b%",
       "defined_out": [
         "game_box#0",
@@ -9760,7 +9876,7 @@
         "reinterpret_bytes%0#0"
       ]
     },
-    "1178": {
+    "1187": {
       "op": "btoi",
       "defined_out": [
         "game_box#0",
@@ -9786,7 +9902,7 @@
         "modulo_240_vrf_bytes_as_int#0"
       ]
     },
-    "1179": {
+    "1188": {
       "op": "frame_bury 11",
       "defined_out": [
         "game_box#0",
@@ -9811,7 +9927,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "1181": {
+    "1190": {
       "op": "intc_1 // 1",
       "defined_out": [
         "game_box#0",
@@ -9838,7 +9954,7 @@
         "valid_vrf_round#0"
       ]
     },
-    "1182": {
+    "1191": {
       "op": "frame_bury 14",
       "stack_out": [
         "game_box#0",
@@ -9858,10 +9974,10 @@
         "valid_vrf_round#0"
       ]
     },
-    "1184": {
+    "1193": {
       "op": "b play_game_after_inlined_algopotato.AlgoPotato.get_vrf_output_modulo@37"
     },
-    "1187": {
+    "1196": {
       "subroutine": "algopotato.AlgoPotato.cancel_game",
       "params": {
         "game_box_name#0": "bytes"
@@ -9870,7 +9986,7 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "1190": {
+    "1199": {
       "op": "frame_dig -1",
       "defined_out": [
         "game_box_name#0 (copy)"
@@ -9879,7 +9995,7 @@
         "game_box_name#0 (copy)"
       ]
     },
-    "1192": {
+    "1201": {
       "op": "box_get",
       "defined_out": [
         "game_box#0",
@@ -9890,14 +10006,14 @@
         "maybe_exists%0#0"
       ]
     },
-    "1193": {
+    "1202": {
       "error": "check self.game_box entry exists",
       "op": "assert // check self.game_box entry exists",
       "stack_out": [
         "game_box#0"
       ]
     },
-    "1194": {
+    "1203": {
       "op": "dup",
       "defined_out": [
         "game_box#0",
@@ -9908,7 +10024,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "1195": {
+    "1204": {
       "error": "Index access is out of bounds",
       "op": "extract 0 32 // on error: Index access is out of bounds",
       "defined_out": [
@@ -9920,7 +10036,7 @@
         "player_1#0"
       ]
     },
-    "1198": {
+    "1207": {
       "op": "swap",
       "defined_out": [
         "game_box#0",
@@ -9931,7 +10047,7 @@
         "game_box#0"
       ]
     },
-    "1199": {
+    "1208": {
       "op": "dup",
       "stack_out": [
         "player_1#0",
@@ -9939,7 +10055,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "1200": {
+    "1209": {
       "error": "Index access is out of bounds",
       "op": "extract 32 32 // on error: Index access is out of bounds",
       "defined_out": [
@@ -9953,7 +10069,7 @@
         "player_2#0"
       ]
     },
-    "1203": {
+    "1212": {
       "op": "dig 1",
       "stack_out": [
         "player_1#0",
@@ -9962,7 +10078,7 @@
         "game_box#0 (copy)"
       ]
     },
-    "1205": {
+    "1214": {
       "op": "pushint 88 // 88",
       "defined_out": [
         "88",
@@ -9979,7 +10095,7 @@
         "88"
       ]
     },
-    "1207": {
+    "1216": {
       "op": "extract_uint64",
       "defined_out": [
         "asset#0",
@@ -9994,7 +10110,7 @@
         "asset#0"
       ]
     },
-    "1208": {
+    "1217": {
       "op": "dup",
       "stack_out": [
         "player_1#0",
@@ -10004,7 +10120,7 @@
         "asset#0 (copy)"
       ]
     },
-    "1209": {
+    "1218": {
       "op": "cover 3",
       "stack_out": [
         "player_1#0",
@@ -10014,7 +10130,7 @@
         "asset#0"
       ]
     },
-    "1211": {
+    "1220": {
       "op": "cover 4",
       "defined_out": [
         "asset#0",
@@ -10030,7 +10146,7 @@
         "player_2#0"
       ]
     },
-    "1213": {
+    "1222": {
       "op": "swap",
       "stack_out": [
         "asset#0",
@@ -10040,7 +10156,7 @@
         "game_box#0"
       ]
     },
-    "1214": {
+    "1223": {
       "op": "pushint 96 // 96",
       "defined_out": [
         "96",
@@ -10058,7 +10174,7 @@
         "96"
       ]
     },
-    "1216": {
+    "1225": {
       "op": "extract_uint64",
       "defined_out": [
         "asset#0",
@@ -10074,7 +10190,7 @@
         "asset_amount#0"
       ]
     },
-    "1217": {
+    "1226": {
       "op": "cover 3",
       "defined_out": [
         "asset#0",
@@ -10090,7 +10206,7 @@
         "player_2#0"
       ]
     },
-    "1219": {
+    "1228": {
       "op": "global ZeroAddress",
       "defined_out": [
         "asset#0",
@@ -10108,7 +10224,7 @@
         "tmp%3#0"
       ]
     },
-    "1221": {
+    "1230": {
       "op": "==",
       "defined_out": [
         "asset#0",
@@ -10124,7 +10240,7 @@
         "tmp%4#0"
       ]
     },
-    "1222": {
+    "1231": {
       "op": "assert",
       "stack_out": [
         "asset#0",
@@ -10133,7 +10249,7 @@
         "asset#0"
       ]
     },
-    "1223": {
+    "1232": {
       "op": "bnz cancel_game_else_body@3",
       "stack_out": [
         "asset#0",
@@ -10141,19 +10257,19 @@
         "player_1#0"
       ]
     },
-    "1226": {
+    "1235": {
       "op": "itxn_begin"
     },
-    "1227": {
+    "1236": {
       "op": "itxn_field Receiver"
     },
-    "1229": {
+    "1238": {
       "op": "itxn_field Amount",
       "stack_out": [
         "asset#0"
       ]
     },
-    "1231": {
+    "1240": {
       "op": "intc_1 // pay",
       "defined_out": [
         "asset#0",
@@ -10164,29 +10280,29 @@
         "pay"
       ]
     },
-    "1232": {
+    "1241": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "asset#0"
       ]
     },
-    "1234": {
+    "1243": {
       "op": "intc_0 // 0",
       "stack_out": [
         "asset#0",
         "0"
       ]
     },
-    "1235": {
+    "1244": {
       "op": "itxn_field Fee",
       "stack_out": [
         "asset#0"
       ]
     },
-    "1237": {
+    "1246": {
       "op": "itxn_submit"
     },
-    "1238": {
+    "1247": {
       "block": "cancel_game_after_if_else@5",
       "stack_in": [
         "asset#0"
@@ -10200,7 +10316,7 @@
         "game_box_name#0 (copy)"
       ]
     },
-    "1240": {
+    "1249": {
       "op": "box_del",
       "defined_out": [
         "{box_del}"
@@ -10210,17 +10326,17 @@
         "{box_del}"
       ]
     },
-    "1241": {
+    "1250": {
       "op": "pop",
       "stack_out": [
         "asset#0"
       ]
     },
-    "1242": {
+    "1251": {
       "retsub": true,
       "op": "retsub"
     },
-    "1243": {
+    "1252": {
       "block": "cancel_game_else_body@3",
       "stack_in": [
         "asset#0",
@@ -10229,7 +10345,7 @@
       ],
       "op": "itxn_begin"
     },
-    "1244": {
+    "1253": {
       "op": "swap",
       "defined_out": [
         "asset_amount#0"
@@ -10240,14 +10356,14 @@
         "asset_amount#0"
       ]
     },
-    "1245": {
+    "1254": {
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "asset#0",
         "player_1#0"
       ]
     },
-    "1247": {
+    "1256": {
       "op": "frame_dig 0",
       "defined_out": [
         "asset#0"
@@ -10258,7 +10374,7 @@
         "asset#0"
       ]
     },
-    "1249": {
+    "1258": {
       "op": "itxn_field XferAsset",
       "defined_out": [
         "asset#0",
@@ -10269,13 +10385,13 @@
         "player_1#0"
       ]
     },
-    "1251": {
+    "1260": {
       "op": "itxn_field AssetReceiver",
       "stack_out": [
         "asset#0"
       ]
     },
-    "1253": {
+    "1262": {
       "op": "intc_2 // axfer",
       "defined_out": [
         "asset#0",
@@ -10286,13 +10402,13 @@
         "axfer"
       ]
     },
-    "1254": {
+    "1263": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "asset#0"
       ]
     },
-    "1256": {
+    "1265": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -10303,16 +10419,16 @@
         "0"
       ]
     },
-    "1257": {
+    "1266": {
       "op": "itxn_field Fee",
       "stack_out": [
         "asset#0"
       ]
     },
-    "1259": {
+    "1268": {
       "op": "itxn_submit"
     },
-    "1260": {
+    "1269": {
       "op": "b cancel_game_after_if_else@5"
     }
   }

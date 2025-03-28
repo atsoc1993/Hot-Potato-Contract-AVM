@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@algorandfoundation/algokit-client-generator": "^5.0.0",
+    "@algorandfoundation/algokit-utils": "^9.0.0"
+  }
+}

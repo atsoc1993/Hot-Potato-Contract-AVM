@@ -4,27 +4,27 @@
 // algopotato.AlgoPotato.__algopy_entrypoint_with_init() -> uint64:
 main:
     intcblock 0 1 4 2 600011887
-    bytecblock "games_played" 0x0000000000000000 "" "counter" 0x151f7c75 0x068101
+    bytecblock "games_played" "counter" 0x0000000000000000 "" 0x151f7c75 0x068101
     txn ApplicationID
     bnz main_after_if_else@2
-    // algopotato.py:33
+    // algopotato.py:41
     // self.games_played = UInt64(0)
     bytec_0 // "games_played"
     intc_0 // 0
     app_global_put
-    // algopotato.py:34
+    // algopotato.py:42
     // self.counter = UInt64(0)
-    bytec_3 // "counter"
+    bytec_1 // "counter"
     intc_0 // 0
     app_global_put
-    // algopotato.py:36
+    // algopotato.py:44
     // self.vrf_app_id = Application(600011887) #Testnet
     pushbytes "vrf_app_id"
     intc 4 // 600011887
     app_global_put
 
 main_after_if_else@2:
-    // algopotato.py:23
+    // algopotato.py:31
     // class AlgoPotato(ARC4Contract):
     txn NumAppArgs
     bz main_bare_routing@10
@@ -33,40 +33,40 @@ main_after_if_else@2:
     match main_asset_opt_in_route@5 main_create_game_route@6 main_prime_game_vrf_route@7 main_play_game_route@8 main_cancel_game_route@9
 
 main_after_if_else@12:
-    // algopotato.py:23
+    // algopotato.py:31
     // class AlgoPotato(ARC4Contract):
     intc_0 // 0
     return
 
 main_cancel_game_route@9:
-    // algopotato.py:458
+    // algopotato.py:468
     // @abimethod
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // algopotato.py:23
+    // algopotato.py:31
     // class AlgoPotato(ARC4Contract):
     txna ApplicationArgs 1
-    // algopotato.py:458
+    // algopotato.py:468
     // @abimethod
     callsub cancel_game
     intc_1 // 1
     return
 
 main_play_game_route@8:
-    // algopotato.py:397
+    // algopotato.py:407
     // @abimethod
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // algopotato.py:23
+    // algopotato.py:31
     // class AlgoPotato(ARC4Contract):
     txna ApplicationArgs 1
-    // algopotato.py:397
+    // algopotato.py:407
     // @abimethod
     callsub play_game
     dup
@@ -83,34 +83,34 @@ main_play_game_route@8:
     return
 
 main_prime_game_vrf_route@7:
-    // algopotato.py:237
+    // algopotato.py:247
     // @abimethod
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // algopotato.py:23
+    // algopotato.py:31
     // class AlgoPotato(ARC4Contract):
     txna ApplicationArgs 1
     txn GroupIndex
     intc_1 // 1
     -
-    // algopotato.py:237
+    // algopotato.py:247
     // @abimethod
     callsub prime_game_vrf
     intc_1 // 1
     return
 
 main_create_game_route@6:
-    // algopotato.py:170
+    // algopotato.py:180
     // @abimethod
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // algopotato.py:23
+    // algopotato.py:31
     // class AlgoPotato(ARC4Contract):
     txn GroupIndex
     intc_3 // 2
@@ -118,21 +118,21 @@ main_create_game_route@6:
     txn GroupIndex
     intc_1 // 1
     -
-    // algopotato.py:170
+    // algopotato.py:180
     // @abimethod
     callsub create_game
     intc_1 // 1
     return
 
 main_asset_opt_in_route@5:
-    // algopotato.py:53
+    // algopotato.py:61
     // @abimethod
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // algopotato.py:23
+    // algopotato.py:31
     // class AlgoPotato(ARC4Contract):
     txna ApplicationArgs 1
     btoi
@@ -140,14 +140,14 @@ main_asset_opt_in_route@5:
     txn GroupIndex
     intc_1 // 1
     -
-    // algopotato.py:53
+    // algopotato.py:61
     // @abimethod
     callsub asset_opt_in
     intc_1 // 1
     return
 
 main_bare_routing@10:
-    // algopotato.py:23
+    // algopotato.py:31
     // class AlgoPotato(ARC4Contract):
     txn OnCompletion
     bnz main_after_if_else@12
@@ -160,14 +160,14 @@ main_bare_routing@10:
 
 // algopotato.AlgoPotato.contract_is_receiver(txn: uint64) -> void:
 contract_is_receiver:
-    // algopotato.py:40-44
+    // algopotato.py:48-52
     // @subroutine
     // def contract_is_receiver(
     //     self,
     //     txn: gtxn.Transaction,
     // ) -> None:
     proto 1 0
-    // algopotato.py:48
+    // algopotato.py:56
     // if txn.type == TransactionType.Payment:
     frame_dig -1
     gtxns TypeEnum
@@ -175,7 +175,7 @@ contract_is_receiver:
     intc_1 // pay
     ==
     bz contract_is_receiver_else_body@2
-    // algopotato.py:49
+    // algopotato.py:57
     // assert txn.receiver == Global.current_application_address
     frame_dig -1
     gtxns Receiver
@@ -187,13 +187,13 @@ contract_is_receiver_after_if_else@5:
     retsub
 
 contract_is_receiver_else_body@2:
-    // algopotato.py:50
+    // algopotato.py:58
     // elif txn.type == TransactionType.AssetTransfer:
     frame_dig 0
     intc_2 // axfer
     ==
     bz contract_is_receiver_after_if_else@5
-    // algopotato.py:51
+    // algopotato.py:59
     // assert txn.asset_receiver == Global.current_application_address
     frame_dig -1
     gtxns AssetReceiver
@@ -205,7 +205,7 @@ contract_is_receiver_else_body@2:
 
 // algopotato.AlgoPotato.asset_opt_in(asset: uint64, mbr_payment: uint64) -> void:
 asset_opt_in:
-    // algopotato.py:53-58
+    // algopotato.py:61-66
     // @abimethod
     // def asset_opt_in(
     //     self,
@@ -213,43 +213,43 @@ asset_opt_in:
     //     mbr_payment: gtxn.Transaction
     // ) -> None:
     proto 2 0
-    // algopotato.py:64
+    // algopotato.py:72
     // self.contract_is_receiver(mbr_payment)
     frame_dig -1
     callsub contract_is_receiver
-    // algopotato.py:66
+    // algopotato.py:74
     // if Global.current_application_address.is_opted_in(asset) == False:
     global CurrentApplicationAddress
     frame_dig -2
     asset_holding_get AssetBalance
     bury 1
     bnz asset_opt_in_else_body@2
-    // algopotato.py:67
+    // algopotato.py:75
     // assert mbr_payment.amount == 100_000
     frame_dig -1
     gtxns Amount
     pushint 100000 // 100000
     ==
     assert
-    // algopotato.py:82-85
+    // algopotato.py:90-93
     // itxn.AssetTransfer(
     //     xfer_asset=asset,
     //     asset_receiver=Global.current_application_address
     // ).submit()
     itxn_begin
-    // algopotato.py:84
+    // algopotato.py:92
     // asset_receiver=Global.current_application_address
     global CurrentApplicationAddress
     itxn_field AssetReceiver
     frame_dig -2
     itxn_field XferAsset
-    // algopotato.py:82
+    // algopotato.py:90
     // itxn.AssetTransfer(
     intc_2 // axfer
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // algopotato.py:82-85
+    // algopotato.py:90-93
     // itxn.AssetTransfer(
     //     xfer_asset=asset,
     //     asset_receiver=Global.current_application_address
@@ -258,7 +258,7 @@ asset_opt_in:
     retsub
 
 asset_opt_in_else_body@2:
-    // algopotato.py:71
+    // algopotato.py:79
     // assert mbr_payment.amount == 0
     frame_dig -1
     gtxns Amount
@@ -269,7 +269,7 @@ asset_opt_in_else_body@2:
 
 // algopotato.AlgoPotato.create_game(asset_deposit: uint64, mbr_fee: uint64) -> void:
 create_game:
-    // algopotato.py:170-175
+    // algopotato.py:180-185
     // @abimethod
     // def create_game(
     //     self,
@@ -277,21 +277,21 @@ create_game:
     //     mbr_fee: gtxn.Transaction
     // ) -> None:
     proto 2 0
-    // algopotato.py:184
+    // algopotato.py:194
     // self.contract_is_receiver(asset_deposit)
     frame_dig -2
     callsub contract_is_receiver
-    // algopotato.py:185
+    // algopotato.py:195
     // self.contract_is_receiver(mbr_fee)
     frame_dig -1
     callsub contract_is_receiver
-    // algopotato.py:98
+    // algopotato.py:106
     // asset_id = UInt64(0)
     intc_0 // 0
-    // algopotato.py:99
+    // algopotato.py:107
     // amount_deposited = UInt64(0)
     dup
-    // algopotato.py:101
+    // algopotato.py:109
     // assert asset_deposit.type in (TransactionType.Payment, TransactionType.AssetTransfer)
     frame_dig -2
     gtxns TypeEnum
@@ -309,64 +309,75 @@ create_game_bool_true@3:
     intc_1 // 1
 
 create_game_bool_merge@5:
-    // algopotato.py:101
+    // algopotato.py:109
     // assert asset_deposit.type in (TransactionType.Payment, TransactionType.AssetTransfer)
     assert
-    // algopotato.py:103
+    // algopotato.py:111
     // if asset_deposit.type == TransactionType.Payment:
     frame_dig 3
     bz create_game_else_body@7
-    // algopotato.py:104
+    // algopotato.py:112
     // asset_id = UInt64(0)
     intc_0 // 0
     frame_bury 0
-    // algopotato.py:105
+    // algopotato.py:113
     // amount_deposited = asset_deposit.amount
     frame_dig -2
     gtxns Amount
     frame_bury 1
 
 create_game_after_if_else@10:
-    // algopotato.py:111
+    // algopotato.py:119
     // assert amount_deposited != 0
     frame_dig 1
     dup
     assert
-    // algopotato.py:123
+    // algopotato.py:132
+    // self.counter += 1
+    intc_0 // 0
+    bytec_1 // "counter"
+    app_global_get_ex
+    assert // check self.counter exists
+    intc_1 // 1
+    +
+    bytec_1 // "counter"
+    swap
+    app_global_put
+    // algopotato.py:133
     // user_addr = Address(Txn.sender)
     txn Sender
-    // algopotato.py:124
+    // algopotato.py:134
     // counter = arc4.UInt64(self.counter)
     intc_0 // 0
-    bytec_3 // "counter"
+    bytec_1 // "counter"
     app_global_get_ex
     assert // check self.counter exists
     itob
-    // algopotato.py:126-129
+    // algopotato.py:136-139
     // return GameBoxName(
     //     player_1=user_addr,
     //     counter=counter
     // )
     concat
-    // algopotato.py:142
+    // algopotato.py:152
     // user_addr = Address(Txn.sender)
     txn Sender
-    // algopotato.py:146
+    // algopotato.py:156
     // player_2=Address(Global.zero_address),
     global ZeroAddress
-    // algopotato.py:147
+    // algopotato.py:157
     // player_1_round=arc4.UInt64(Global.round),
     global Round
     itob
-    // algopotato.py:150
+    // algopotato.py:160
     // asset=arc4.UInt64(asset_id),
     frame_dig 0
     itob
-    // algopotato.py:151
+    // algopotato.py:161
     // asset_amount=arc4.UInt64(asset_amount)
     uncover 5
     itob
-    // algopotato.py:144-152
+    // algopotato.py:154-162
     // return GameBoxValue(
     //         player_1=user_addr,
     //         player_2=Address(Global.zero_address),
@@ -381,10 +392,10 @@ create_game_after_if_else@10:
     concat
     uncover 3
     concat
-    // algopotato.py:148
+    // algopotato.py:158
     // player_2_round=arc4.UInt64(0),
-    bytec_1 // 0x0000000000000000
-    // algopotato.py:144-152
+    bytec_2 // 0x0000000000000000
+    // algopotato.py:154-162
     // return GameBoxValue(
     //         player_1=user_addr,
     //         player_2=Address(Global.zero_address),
@@ -395,10 +406,10 @@ create_game_after_if_else@10:
     //         asset_amount=arc4.UInt64(asset_amount)
     // )
     concat
-    // algopotato.py:149
+    // algopotato.py:159
     // vrf_round=arc4.UInt64(0),
-    bytec_1 // 0x0000000000000000
-    // algopotato.py:144-152
+    bytec_2 // 0x0000000000000000
+    // algopotato.py:154-162
     // return GameBoxValue(
     //         player_1=user_addr,
     //         player_2=Address(Global.zero_address),
@@ -413,24 +424,24 @@ create_game_after_if_else@10:
     concat
     swap
     concat
-    // algopotato.py:193
+    // algopotato.py:203
     // self.game_box[game_box_name] = game_box_value.copy()
     box_put
     retsub
 
 create_game_else_body@7:
-    // algopotato.py:107
+    // algopotato.py:115
     // elif asset_deposit.type == TransactionType.AssetTransfer:
     frame_dig 2
     intc_2 // axfer
     ==
     bz create_game_after_if_else@10
-    // algopotato.py:108
+    // algopotato.py:116
     // asset_id = asset_deposit.xfer_asset.id
     frame_dig -2
     gtxns XferAsset
     frame_bury 0
-    // algopotato.py:109
+    // algopotato.py:117
     // amount_deposited = asset_deposit.asset_amount
     frame_dig -2
     gtxns AssetAmount
@@ -444,7 +455,7 @@ create_game_bool_false@4:
 
 // algopotato.AlgoPotato.prime_game_vrf(game_box_name: bytes, asset_deposit: uint64) -> void:
 prime_game_vrf:
-    // algopotato.py:237-242
+    // algopotato.py:247-252
     // @abimethod
     // def prime_game_vrf(
     //     self,
@@ -452,16 +463,16 @@ prime_game_vrf:
     //     asset_deposit: gtxn.Transaction,
     // ) -> None:
     proto 2 0
-    // algopotato.py:251
+    // algopotato.py:261
     // self.contract_is_receiver(asset_deposit)
     frame_dig -1
     callsub contract_is_receiver
-    // algopotato.py:253
+    // algopotato.py:263
     // game_box = self.game_box[game_box_name].copy()
     frame_dig -2
     box_get
     assert // check self.game_box entry exists
-    // algopotato.py:208
+    // algopotato.py:218
     // assert asset_deposit.type in (TransactionType.AssetTransfer, TransactionType.Payment)
     frame_dig -1
     gtxns TypeEnum
@@ -478,24 +489,24 @@ prime_game_vrf_bool_true@3:
     intc_1 // 1
 
 prime_game_vrf_bool_merge@5:
-    // algopotato.py:208
+    // algopotato.py:218
     // assert asset_deposit.type in (TransactionType.AssetTransfer, TransactionType.Payment)
     assert
-    // algopotato.py:210
+    // algopotato.py:220
     // if asset_deposit.type == TransactionType.Payment:
     frame_dig 1
     intc_1 // pay
     ==
     bz prime_game_vrf_else_body@7
-    // algopotato.py:211
+    // algopotato.py:221
     // assert game_box_value.asset == 0
     frame_dig 0
     dup
     extract 88 8 // on error: Index access is out of bounds
-    bytec_1 // 0x0000000000000000
+    bytec_2 // 0x0000000000000000
     b==
     assert
-    // algopotato.py:212
+    // algopotato.py:222
     // assert game_box_value.asset_amount == asset_deposit.amount
     extract 96 8 // on error: Index access is out of bounds
     frame_dig -1
@@ -505,7 +516,7 @@ prime_game_vrf_bool_merge@5:
     assert
 
 prime_game_vrf_after_if_else@8:
-    // algopotato.py:230
+    // algopotato.py:240
     // assert game_box.player_2 == Global.zero_address
     frame_dig 0
     dup
@@ -513,23 +524,23 @@ prime_game_vrf_after_if_else@8:
     global ZeroAddress
     ==
     assert
-    // algopotato.py:231
+    // algopotato.py:241
     // game_box.player_2 = Address(Txn.sender)
     txn Sender
     replace2 32
-    // algopotato.py:232
+    // algopotato.py:242
     // game_box.player_2_round = arc4.UInt64(Global.round)
     global Round
     itob
     replace2 72
-    // algopotato.py:233
+    // algopotato.py:243
     // game_box.vrf_round = arc4.UInt64(Global.round + 9)
     global Round
     pushint 9 // 9
     +
     itob
     replace2 80
-    // algopotato.py:258
+    // algopotato.py:268
     // self.game_box[game_box_name] = game_box.copy()
     frame_dig -2
     swap
@@ -537,7 +548,7 @@ prime_game_vrf_after_if_else@8:
     retsub
 
 prime_game_vrf_else_body@7:
-    // algopotato.py:215
+    // algopotato.py:225
     // assert game_box_value.asset == asset_deposit.xfer_asset.id
     frame_dig 0
     dup
@@ -547,7 +558,7 @@ prime_game_vrf_else_body@7:
     itob
     b==
     assert
-    // algopotato.py:216
+    // algopotato.py:226
     // assert game_box_value.asset_amount == asset_deposit.asset_amount
     extract 96 8 // on error: Index access is out of bounds
     frame_dig -1
@@ -564,7 +575,7 @@ prime_game_vrf_bool_false@4:
 
 // algopotato.AlgoPotato.play_game(game_box_name: bytes) -> bytes:
 play_game:
-    // algopotato.py:397-401
+    // algopotato.py:407-411
     // @abimethod
     // def play_game(
     //     self,
@@ -573,7 +584,7 @@ play_game:
     proto 1 1
     intc_0 // 0
     dupn 6
-    bytec_2 // ""
+    bytec_3 // ""
     dupn 7
 
 play_game_while_top@25:
@@ -596,7 +607,7 @@ play_game_while_top@25:
     b play_game_while_top@25
 
 play_game_after_while@30:
-    // algopotato.py:421
+    // algopotato.py:431
     // game_box = self.game_box[game_box_name].copy()
     frame_dig -1
     box_get
@@ -605,30 +616,30 @@ play_game_after_while@30:
     cover 2
     frame_bury 0
     assert // check self.game_box entry exists
-    // algopotato.py:395
+    // algopotato.py:405
     // assert game_box.vrf_round != 0
     dup
     extract 80 8 // on error: Index access is out of bounds
     dup
     frame_bury 6
-    bytec_1 // 0x0000000000000000
+    bytec_2 // 0x0000000000000000
     b!=
     assert
-    // algopotato.py:278
+    // algopotato.py:288
     // if Global.round - vrf_round.native > 1512:
     global Round
     swap
-    // algopotato.py:276
+    // algopotato.py:286
     // vrf_round = game_box.vrf_round
     pushint 80 // 80
-    // algopotato.py:278
+    // algopotato.py:288
     // if Global.round - vrf_round.native > 1512:
     extract_uint64
     -
     pushint 1512 // 1512
     >
     bz play_game_after_if_else@36
-    // algopotato.py:279
+    // algopotato.py:289
     // return UInt64(0), False
     intc_0 // 0
     dup
@@ -636,18 +647,18 @@ play_game_after_while@30:
     frame_bury 11
 
 play_game_after_inlined_algopotato.AlgoPotato.get_vrf_output_modulo@37:
-    // algopotato.py:359
+    // algopotato.py:369
     // player_1 = game_box.player_1.native
     frame_dig 0
     dup
     extract 0 32 // on error: Index access is out of bounds
     frame_bury 1
-    // algopotato.py:360
+    // algopotato.py:370
     // player_2 = game_box.player_2.native
     dup
     extract 32 32 // on error: Index access is out of bounds
     frame_bury 2
-    // algopotato.py:362
+    // algopotato.py:372
     // asset = game_box.asset.native
     dup
     pushint 88 // 88
@@ -655,29 +666,29 @@ play_game_after_inlined_algopotato.AlgoPotato.get_vrf_output_modulo@37:
     dup
     cover 2
     frame_bury 7
-    // algopotato.py:363
+    // algopotato.py:373
     // asset_amount = game_box.asset_amount.native * 2
     pushint 96 // 96
     extract_uint64
     intc_3 // 2
     *
     frame_bury 8
-    // algopotato.py:365
+    // algopotato.py:375
     // if asset == 0:
     bnz play_game_else_body@40
-    // algopotato.py:366
+    // algopotato.py:376
     // return True, String('')
     intc_1 // 1
-    bytec_2 // ""
+    bytec_3 // ""
     frame_bury 5
     frame_bury 9
 
 play_game_after_inlined_algopotato.AlgoPotato.verify_both_users_opted_in@45:
-    // algopotato.py:429
+    // algopotato.py:439
     // if valid_vrf_round == False:
     frame_dig 14
     bnz play_game_else_body@2
-    // algopotato.py:430
+    // algopotato.py:440
     // game_box.vrf_round = arc4.UInt64(Global.round + 9)
     global Round
     pushint 9 // 9
@@ -686,28 +697,28 @@ play_game_after_inlined_algopotato.AlgoPotato.verify_both_users_opted_in@45:
     frame_dig 0
     swap
     replace2 80
-    // algopotato.py:431
+    // algopotato.py:441
     // self.game_box[game_box_name] = game_box.copy()
     frame_dig -1
     swap
     box_put
-    // algopotato.py:432
+    // algopotato.py:442
     // return String("VRF Round expired")
     pushbytes "VRF Round expired"
     frame_bury 0
     retsub
 
 play_game_else_body@2:
-    // algopotato.py:434
+    // algopotato.py:444
     // elif not both_users_opted_into_asset:
     frame_dig 9
     bnz play_game_else_body@4
-    // algopotato.py:436
+    // algopotato.py:446
     // del self.game_box[game_box_name]
     frame_dig -1
     box_del
     pop
-    // algopotato.py:438
+    // algopotato.py:448
     // self.games_played += 1
     intc_0 // 0
     bytec_0 // "games_played"
@@ -718,18 +729,18 @@ play_game_else_body@2:
     bytec_0 // "games_played"
     swap
     app_global_put
-    // algopotato.py:440
+    // algopotato.py:450
     // return return_message
     frame_dig 5
     frame_bury 0
     retsub
 
 play_game_else_body@4:
-    // algopotato.py:311
+    // algopotato.py:321
     // potato_holder = Global.zero_address
     global ZeroAddress
     frame_bury 3
-    // algopotato.py:313
+    // algopotato.py:323
     // for i in urange(modulo_240_vrf_bytes_as_int + 1):
     frame_dig 11
     intc_1 // 1
@@ -739,7 +750,7 @@ play_game_else_body@4:
     frame_bury 10
 
 play_game_for_header@8:
-    // algopotato.py:313
+    // algopotato.py:323
     // for i in urange(modulo_240_vrf_bytes_as_int + 1):
     frame_dig 10
     frame_dig 12
@@ -747,7 +758,7 @@ play_game_for_header@8:
     frame_dig 3
     frame_bury 4
     bz play_game_after_for@22
-    // algopotato.py:314
+    // algopotato.py:324
     // if i % 2 == 0:
     frame_dig 10
     intc_3 // 2
@@ -759,7 +770,7 @@ play_game_for_header@8:
     frame_bury 3
 
 play_game_after_if_else@11:
-    // algopotato.py:317
+    // algopotato.py:327
     // if i % 2 != 0:
     frame_dig 13
     bz play_game_after_if_else@13
@@ -767,17 +778,17 @@ play_game_after_if_else@11:
     frame_bury 3
 
 play_game_after_if_else@13:
-    // algopotato.py:320
+    // algopotato.py:330
     // if i == modulo_240_vrf_bytes_as_int:
     frame_dig 10
     frame_dig 11
     ==
     bz play_game_after_if_else@18
-    // algopotato.py:321
+    // algopotato.py:331
     // if asset_id == 0:
     frame_dig 7
     bnz play_game_else_body@16
-    // algopotato.py:322-325
+    // algopotato.py:332-335
     // itxn.Payment(
     //     receiver=potato_holder,
     //     amount=asset_amount,
@@ -787,13 +798,13 @@ play_game_after_if_else@13:
     itxn_field Amount
     frame_dig 3
     itxn_field Receiver
-    // algopotato.py:322
+    // algopotato.py:332
     // itxn.Payment(
     intc_1 // pay
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // algopotato.py:322-325
+    // algopotato.py:332-335
     // itxn.Payment(
     //     receiver=potato_holder,
     //     amount=asset_amount,
@@ -806,12 +817,12 @@ play_game_after_if_else@17:
 
 play_game_after_for@22:
     frame_dig 4
-    // algopotato.py:447
+    // algopotato.py:457
     // del self.game_box[game_box_name]
     frame_dig -1
     box_del
     pop
-    // algopotato.py:449
+    // algopotato.py:459
     // self.games_played += 1
     intc_0 // 0
     bytec_0 // "games_played"
@@ -822,26 +833,26 @@ play_game_after_for@22:
     bytec_0 // "games_played"
     swap
     app_global_put
-    // algopotato.py:451
+    // algopotato.py:461
     // if potato_holder == player_1:
     frame_dig 1
     ==
     bz play_game_else_body@6
-    // algopotato.py:452
+    // algopotato.py:462
     // return String("Player 1 Wins!")
     pushbytes "Player 1 Wins!"
     frame_bury 0
     retsub
 
 play_game_else_body@6:
-    // algopotato.py:454
+    // algopotato.py:464
     // return String("Player 2 Wins!")
     pushbytes "Player 2 Wins!"
     frame_bury 0
     retsub
 
 play_game_else_body@16:
-    // algopotato.py:327-331
+    // algopotato.py:337-341
     // itxn.AssetTransfer(
     //     xfer_asset=asset_id,
     //     asset_receiver=potato_holder,
@@ -854,13 +865,13 @@ play_game_else_body@16:
     itxn_field AssetReceiver
     frame_dig 7
     itxn_field XferAsset
-    // algopotato.py:327
+    // algopotato.py:337
     // itxn.AssetTransfer(
     intc_2 // axfer
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // algopotato.py:327-331
+    // algopotato.py:337-341
     // itxn.AssetTransfer(
     //     xfer_asset=asset_id,
     //     asset_receiver=potato_holder,
@@ -870,29 +881,29 @@ play_game_else_body@16:
     b play_game_after_if_else@17
 
 play_game_after_if_else@18:
-    // algopotato.py:334
+    // algopotato.py:344
     // if asset_id == 0:
     frame_dig 7
     bnz play_game_else_body@20
-    // algopotato.py:335-338
+    // algopotato.py:345-348
     // itxn.Payment(
     //     receiver=potato_holder,
     //     amount=0,
     // ).submit()
     itxn_begin
-    // algopotato.py:337
+    // algopotato.py:347
     // amount=0,
     intc_0 // 0
     itxn_field Amount
     frame_dig 3
     itxn_field Receiver
-    // algopotato.py:335
+    // algopotato.py:345
     // itxn.Payment(
     intc_1 // pay
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // algopotato.py:335-338
+    // algopotato.py:345-348
     // itxn.Payment(
     //     receiver=potato_holder,
     //     amount=0,
@@ -900,7 +911,7 @@ play_game_after_if_else@18:
     itxn_submit
 
 play_game_after_if_else@21:
-    // algopotato.py:313
+    // algopotato.py:323
     // for i in urange(modulo_240_vrf_bytes_as_int + 1):
     frame_dig 10
     intc_1 // 1
@@ -909,14 +920,14 @@ play_game_after_if_else@21:
     b play_game_for_header@8
 
 play_game_else_body@20:
-    // algopotato.py:340-344
+    // algopotato.py:350-354
     // itxn.AssetTransfer(
     //     xfer_asset=asset_id,
     //     asset_receiver=potato_holder,
     //     asset_amount=0,
     // ).submit()
     itxn_begin
-    // algopotato.py:343
+    // algopotato.py:353
     // asset_amount=0,
     intc_0 // 0
     itxn_field AssetAmount
@@ -924,13 +935,13 @@ play_game_else_body@20:
     itxn_field AssetReceiver
     frame_dig 7
     itxn_field XferAsset
-    // algopotato.py:340
+    // algopotato.py:350
     // itxn.AssetTransfer(
     intc_2 // axfer
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // algopotato.py:340-344
+    // algopotato.py:350-354
     // itxn.AssetTransfer(
     //     xfer_asset=asset_id,
     //     asset_receiver=potato_holder,
@@ -940,14 +951,14 @@ play_game_else_body@20:
     b play_game_after_if_else@21
 
 play_game_else_body@40:
-    // algopotato.py:368
+    // algopotato.py:378
     // elif player_1.is_opted_in(Asset(asset)) == False:
     frame_dig 1
     frame_dig 7
     asset_holding_get AssetBalance
     bury 1
     bnz play_game_else_body@42
-    // algopotato.py:369-373
+    // algopotato.py:379-383
     // itxn.AssetTransfer(
     //     xfer_asset=asset,
     //     asset_receiver=player_2,
@@ -960,38 +971,38 @@ play_game_else_body@40:
     itxn_field AssetReceiver
     frame_dig 7
     itxn_field XferAsset
-    // algopotato.py:369
+    // algopotato.py:379
     // itxn.AssetTransfer(
     intc_2 // axfer
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // algopotato.py:369-373
+    // algopotato.py:379-383
     // itxn.AssetTransfer(
     //     xfer_asset=asset,
     //     asset_receiver=player_2,
     //     asset_amount=asset_amount
     // ).submit()
     itxn_submit
-    // algopotato.py:375
+    // algopotato.py:385
     // return False, String("Player 1 Forfeit by opting out")
     intc_0 // 0
     pushbytes "Player 1 Forfeit by opting out"
     frame_bury 5
     frame_bury 9
-    // algopotato.py:427
+    // algopotato.py:437
     // both_users_opted_into_asset, return_message = self.verify_both_users_opted_in(game_box.copy())
     b play_game_after_inlined_algopotato.AlgoPotato.verify_both_users_opted_in@45
 
 play_game_else_body@42:
-    // algopotato.py:377
+    // algopotato.py:387
     // elif player_2.is_opted_in(Asset(asset)) == False:
     frame_dig 2
     frame_dig 7
     asset_holding_get AssetBalance
     bury 1
     bnz play_game_else_body@44
-    // algopotato.py:378-382
+    // algopotato.py:388-392
     // itxn.AssetTransfer(
     //     xfer_asset=asset,
     //     asset_receiver=player_1,
@@ -1004,42 +1015,42 @@ play_game_else_body@42:
     itxn_field AssetReceiver
     frame_dig 7
     itxn_field XferAsset
-    // algopotato.py:378
+    // algopotato.py:388
     // itxn.AssetTransfer(
     intc_2 // axfer
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // algopotato.py:378-382
+    // algopotato.py:388-392
     // itxn.AssetTransfer(
     //     xfer_asset=asset,
     //     asset_receiver=player_1,
     //     asset_amount=asset_amount
     // ).submit()
     itxn_submit
-    // algopotato.py:384
+    // algopotato.py:394
     // return False, String("Player 2 Forfeit by opting out")
     intc_0 // 0
     pushbytes "Player 2 Forfeit by opting out"
     frame_bury 5
     frame_bury 9
-    // algopotato.py:427
+    // algopotato.py:437
     // both_users_opted_into_asset, return_message = self.verify_both_users_opted_in(game_box.copy())
     b play_game_after_inlined_algopotato.AlgoPotato.verify_both_users_opted_in@45
 
 play_game_else_body@44:
-    // algopotato.py:387
+    // algopotato.py:397
     // return True, String('')
     intc_1 // 1
-    bytec_2 // ""
+    bytec_3 // ""
     frame_bury 5
     frame_bury 9
-    // algopotato.py:427
+    // algopotato.py:437
     // both_users_opted_into_asset, return_message = self.verify_both_users_opted_in(game_box.copy())
     b play_game_after_inlined_algopotato.AlgoPotato.verify_both_users_opted_in@45
 
 play_game_after_if_else@36:
-    // algopotato.py:283-288
+    // algopotato.py:293-298
     // result, txn = abi_call[Bytes](
     //     'must_get(uint64,byte[])byte[]',
     //     vrf_round,
@@ -1047,7 +1058,7 @@ play_game_after_if_else@36:
     //     app_id=600011887,
     // )
     itxn_begin
-    // algopotato.py:286
+    // algopotato.py:296
     // game_box_as_bytes,
     frame_dig 0
     dup
@@ -1056,11 +1067,11 @@ play_game_after_if_else@36:
     extract 6 2
     swap
     concat
-    // algopotato.py:287
+    // algopotato.py:297
     // app_id=600011887,
     intc 4 // 600011887
     itxn_field ApplicationID
-    // algopotato.py:283-288
+    // algopotato.py:293-298
     // result, txn = abi_call[Bytes](
     //     'must_get(uint64,byte[])byte[]',
     //     vrf_round,
@@ -1084,45 +1095,45 @@ play_game_after_if_else@36:
     ==
     assert // ARC4 prefix is valid
     extract 6 0
-    // algopotato.py:291
+    // algopotato.py:301
     // modulo_240_vrf_bytes_as_int = op.btoi((vrf_bytes_as_integer.native % 240).bytes)
     pushbytes 0xf0
     b%
     btoi
     frame_bury 11
-    // algopotato.py:293
+    // algopotato.py:303
     // return modulo_240_vrf_bytes_as_int, True
     intc_1 // 1
     frame_bury 14
-    // algopotato.py:425
+    // algopotato.py:435
     // modulo_240_vrf_bytes_as_int, valid_vrf_round = self.get_vrf_output_modulo(game_box.copy())
     b play_game_after_inlined_algopotato.AlgoPotato.get_vrf_output_modulo@37
 
 
 // algopotato.AlgoPotato.cancel_game(game_box_name: bytes) -> void:
 cancel_game:
-    // algopotato.py:458-462
+    // algopotato.py:468-472
     // @abimethod
     // def cancel_game(
     //     self,
     //     game_box_name: GameBoxName
     // ) -> None:
     proto 1 0
-    // algopotato.py:467
+    // algopotato.py:477
     // game_box = self.game_box[game_box_name].copy()
     frame_dig -1
     box_get
     assert // check self.game_box entry exists
-    // algopotato.py:469
+    // algopotato.py:479
     // player_1 = game_box.player_1.native
     dup
     extract 0 32 // on error: Index access is out of bounds
     swap
-    // algopotato.py:470
+    // algopotato.py:480
     // player_2 = game_box.player_2.native
     dup
     extract 32 32 // on error: Index access is out of bounds
-    // algopotato.py:473
+    // algopotato.py:483
     // asset = game_box.asset.native
     dig 1
     pushint 88 // 88
@@ -1130,21 +1141,21 @@ cancel_game:
     dup
     cover 3
     cover 4
-    // algopotato.py:474
+    // algopotato.py:484
     // asset_amount = game_box.asset_amount.native
     swap
     pushint 96 // 96
     extract_uint64
     cover 3
-    // algopotato.py:476
+    // algopotato.py:486
     // assert player_2 == Global.zero_address
     global ZeroAddress
     ==
     assert
-    // algopotato.py:478
+    // algopotato.py:488
     // if asset == 0:
     bnz cancel_game_else_body@3
-    // algopotato.py:479-482
+    // algopotato.py:489-492
     // itxn.Payment(
     //     receiver=player_1,
     //     amount=asset_amount
@@ -1152,13 +1163,13 @@ cancel_game:
     itxn_begin
     itxn_field Receiver
     itxn_field Amount
-    // algopotato.py:479
+    // algopotato.py:489
     // itxn.Payment(
     intc_1 // pay
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // algopotato.py:479-482
+    // algopotato.py:489-492
     // itxn.Payment(
     //     receiver=player_1,
     //     amount=asset_amount
@@ -1166,7 +1177,7 @@ cancel_game:
     itxn_submit
 
 cancel_game_after_if_else@5:
-    // algopotato.py:491
+    // algopotato.py:501
     // del self.game_box[game_box_name]
     frame_dig -1
     box_del
@@ -1174,7 +1185,7 @@ cancel_game_after_if_else@5:
     retsub
 
 cancel_game_else_body@3:
-    // algopotato.py:485-489
+    // algopotato.py:495-499
     // itxn.AssetTransfer(
     //     asset_receiver=player_1,
     //     xfer_asset=asset,
@@ -1186,13 +1197,13 @@ cancel_game_else_body@3:
     frame_dig 0
     itxn_field XferAsset
     itxn_field AssetReceiver
-    // algopotato.py:485
+    // algopotato.py:495
     // itxn.AssetTransfer(
     intc_2 // axfer
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // algopotato.py:485-489
+    // algopotato.py:495-499
     // itxn.AssetTransfer(
     //     asset_receiver=player_1,
     //     xfer_asset=asset,
