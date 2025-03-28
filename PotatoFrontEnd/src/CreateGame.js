@@ -1,6 +1,10 @@
 import { AlgorandClient } from "@algorandfoundation/algokit-utils";
 import { AlgoPotatoClient } from "./AlgoPotatoClient";
+import { Config } from '@algorandfoundation/algokit-utils'
 
+Config.configure({
+  debug: true,
+})
 
 const createGame = async ({ address, signer, asset, amount }) => {
 
@@ -15,30 +19,6 @@ const createGame = async ({ address, signer, asset, amount }) => {
 
     const appAddress = algoPotatoClient.appAddress
 
-    let assetTransfer = null
-
-    if (asset === BigInt(0)) {
-        assetTransfer = algorand.createTransaction.payment({
-            sender: address,
-            receiver: appAddress,
-            amount: amount,
-        })
-
-    } else {
-
-        assetTransfer = algorand.createTransaction.assetTransfer({
-            amount: amount,
-            assetId: asset,
-            sender: address,
-            receiver: appAddress,
-        })
-    }
-
-    const mbrFee = algorand.createTransaction.payment({
-        sender: address,
-        receiver: appAddress,
-        amount: (60_100).microAlgo(), 
-    })
 
     const contractAssets = (await algorand.client.algod.accountInformation(appAddress).do()).assets
     const contractOptedIntoAsset = contractAssets.some(
@@ -53,6 +33,7 @@ const createGame = async ({ address, signer, asset, amount }) => {
             amount: (100_000).microAlgo(),
             sender: address,
             receiver: appAddress,
+
         })
 
         group.assetOptIn({
@@ -64,6 +45,33 @@ const createGame = async ({ address, signer, asset, amount }) => {
         })
     }
 
+
+    let assetTransfer = null
+
+    if (asset === BigInt(0)) {
+        assetTransfer = await algorand.createTransaction.payment({
+            sender: address,
+            receiver: appAddress,
+            amount: amount,
+        })
+
+    } else {
+
+        console.log(address)
+        assetTransfer = await algorand.createTransaction.assetTransfer({
+            amount: amount,
+            assetId: asset,
+            sender: address,
+            receiver: appAddress,
+        })
+    }    const mbrFee = await algorand.createTransaction.payment({
+        sender: address,
+        receiver: appAddress,
+        amount: (60_100).microAlgo(), 
+
+    })
+
+
     group.createGame({
         args: {
             assetDeposit: assetTransfer,
@@ -72,17 +80,13 @@ const createGame = async ({ address, signer, asset, amount }) => {
         maxFee: (10_000).microAlgo()
     })
 
-    const composer = await group.composer();
-    const builtGroup = await composer.build();
-    const txs = builtGroup.transactions;
-    console.log(txs);
     
     try {
         const response = await group.send({
+            coverAppCallInnerTransactionFees: true
             
-            coverAppCallInnerTransactionFees: true,
-            populateAppCallResources: true,
         })
+
         console.log("Transaction response:", response)
         return response
     } catch (error) {
