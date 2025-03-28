@@ -120,6 +120,7 @@ class AlgoPotato(ARC4Contract):
         '''
         Constructs a GameBoxName instance when creating a game using the sender's address and the current global counter
         '''
+        self.counter += 1
         user_addr = Address(Txn.sender)
         counter = arc4.UInt64(self.counter)
 
